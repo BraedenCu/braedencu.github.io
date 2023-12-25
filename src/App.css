@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0f172a;
+  overflow: hidden; /* Prevent scrollbars from appearing */
 }
 
 #root {
@@ -11,6 +12,7 @@ body {
   margin: 0;
 }
 
+/* pointer following circle */
 .circle {
   z-index: 0;
   width: 400px;
@@ -693,5 +695,23 @@ color: rgba(94, 234, 212, 0.85);
     border-color: rgba(94, 234, 212, 0.5);
     border-style: solid;
     border-width: 2px;
+  }
+}
+
+.container {
+  max-width: 1200px; /* Maximum width of the content */
+  margin: 0 auto; /* Auto margins for centering and space on sides */
+  padding: 0 15px; /* Padding for small devices */
+}
+
+@media (max-width: 1200px) {
+  .container {
+      max-width: 95%; /* Allow more width on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      max-width: 100%; /* Full width on very small screens */
   }
 }

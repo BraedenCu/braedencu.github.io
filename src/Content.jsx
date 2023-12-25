@@ -14,11 +14,11 @@ export default function Content() {
         <div id="about" className="about">
         </div>
         
-        <div className="education">
+        <div id="education" className="education">
            <p className='title'>Education</p>
             <div className="school-item">
               <div className="school-item-intro">
-                <h6>2023 - 2027</h6>
+                <h6>August 2023 - June 2027</h6>
               </div>
               <div className="school-item-details">
                 <h4>Yale University</h4>
@@ -26,7 +26,17 @@ export default function Content() {
                 <p>I am studying computer science with a specific emphasis on data structures, machine learning, and artificial intelligence. This knowledge is leveraged in tandem with economics fundamentals to perform quantatative market analysis.</p>
               </div>
             </div>
+            <div className="school-item">
+              <div className="school-item-intro">
+                <h6>August 2019 - June 2023</h6>
+              </div>
+              <div className="school-item-details">
+                <h4>Illinois Mathematics and Science Academy</h4>
+                <h6>Student Researcher, Class Assistant</h6>
+                <p>I am studying computer science with a specific emphasis on data structures, machine learning, and artificial intelligence. This knowledge is leveraged in tandem with economics fundamentals to perform quantatative market analysis.</p>
+              </div>
             </div>
+          </div>
 
         <div id="experience" className="journey">
           <div className="learning-path">

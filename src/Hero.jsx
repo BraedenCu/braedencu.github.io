@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 
 const Hero = () => {
   const [heading, setHeading] = useState('Engineer');
-
   useEffect(() => {
     const headings = ['Creative', 'Engineer', 'Designer', 'Developer', 'Artist', 'Student', 'Learner', 'Problem Solver', 'Innovator', 'Collaborator', 'Leader', 'Mentor', 'Friend', 'Teammate', 'Volunteer', 'Advocate', 'Activist', 'Writer', 'Speaker', 'Musician', 'Dancer', 'Athlete', 'Explorer', 'Traveler', 'Photographer', 'Reader', 'Linguist', 'Polyglot', 'Human'];
     let i = 0;
@@ -24,6 +23,9 @@ const Hero = () => {
       <div className="hero">
         <div className="intro">
           <h1>Braeden Cullen</h1>
+          <div className="hero-circle">
+            <img height="128" width="128" src="src/assets/headshot.png" alt="Braeden Cullen"></img>
+          </div>
           <h4>{heading}</h4>
           <p>
             A software engineer dedicated to leveraging advanced technical expertise and analytical  skills to address global challenges, with a strong foundation in AI, big data, and entrepreneurship.
@@ -58,10 +60,6 @@ const Hero = () => {
             <img className="i" src={instagramLogo} alt="Instagram Link" />
           </a>
         </div>
-
-        <div className="resume-link">
-          <a target='_blank' href="https://drive.google.com/file/d/1h_K45H2_TerPFP898-kRw0T4crp3V0ts/view?usp=share_link">My Resume</a>
-          </div>
       </div>
     </>
   );

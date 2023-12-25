@@ -33,33 +33,29 @@ export default function Content() {
            <p className='title'>Experience</p>
             <div className="lesson">
               <div className="lesson-intro">
-                <h6>June - Present 2023</h6>
+                <h6>August 2023 - Present</h6>
               </div>
               <div className="lesson-details">
-                <h4>Developer - University of Chicago</h4>
-                <h6>Lead Web Developer & Designer</h6>
-                <p>As a web developer intern, I'm redesigning my company's services, including courses, to enhance user experience and boost our digital presence. I'm thrilled to make a meaningful impact using my skills.</p>
+                <h4>Yale Foreign Policy Institute, Department of Defence</h4>
+                <h6>Big Data Architect</h6>
+                <p>Apply advanced data analytics to analyze foreign intervention in regions of high interest to United States national security through high-level geospatial analysis using machine learning techniques. Work closely with the Department of Defense and the National Geospatial-Intelligence Agency to investigate Russian collusion in Africa.  </p>
                 <div className="skills-container">
-                  <a className="skill-button">UI/UX</a>
-                  <a className="skill-button">FIGMA</a>
-                  <a className="skill-button">PHOTOSHOP</a>
-                  <a className="skill-button">GRAPHIC DESIGN</a>
-                  <a className="skill-button">HTML</a>
-                  <a className="skill-button">CSS</a>
-                  <a className="skill-button">JS</a>
-                  <a className="skill-button">REACT. JS</a>
+                  <a className="skill-button">R</a>
+                  <a className="skill-button">PYTHON</a>
+                  <a className="skill-button">ML</a>
+                  <a className="skill-button">BIG DATA</a>
                 </div>
               </div>
             </div>
 
             <div className="lesson">
               <div className="lesson-intro">
-                <h6>July - Present 2023</h6>
+                <h6>May 2022 - June 2023</h6>
               </div>
               <div className="lesson-details">
-                <h4>Developer - Code Clause</h4>
-                <h6>Front end Web Developer</h6>
-                <p>At Code Clause, as a front-end developer, I built a portfolio site, an Amazon-like site, and a product page, successfully delivering inventive designs and completing all tasks.</p>
+                <h4>University of Chicago, Globus Labs </h4>
+                <h6>Software Engineer</h6>
+                <p>Developed Moment, a site for connecting artificial intelligence researchers in academia to passionate collaborators to improve academic turnover through crowdsourced collaboration: labs.globus.org/projects/foundry.html. Worked on DLHub and Foundry, python packages leveraged to increase the reproducibility of cutting-edge machine learning models from academic papers immediately upon publication: labs.globus.org/projects/dlhub.html.</p>
                 <div className="skills-container">
                   <a className="skill-button">UI/UX</a>
                   <a className="skill-button">GRAPHIC DESIGN</a>
@@ -73,12 +69,29 @@ export default function Content() {
 
             <div className="lesson">
               <div className="lesson-intro">
-                <h6>April - Finished 2023</h6>
+                <h6>May 2022 - August 2022</h6>
               </div>
               <div className="lesson-details">
-                <h4>Developer - Manojagrati Special School</h4>
-                <h6>Freelancing</h6>
-                <p>At Manojagrati Special School, I worked as a freelancer to design and develop a static webpage for their NGO, enhancing their online presence.</p>
+                <h4>Argonne National Laboratory</h4>
+                <h6>Artificial Intelligence Research Intern</h6>
+                <p>Filtered and processed global climate radar data to highlight global vulnerability by region. Developed a fully featured machine learning-based pipeline to address the climate data crisis by improving the usability of climate radar data for statistical analysis.  Utilized ML-based downscaling techniques to produce radar data improved by a 16x scale magnification factor.</p>
+                <div className="skills-container">
+                  <a className="skill-button">UI/UX</a>
+                  <a className="skill-button">HTML</a>
+                  <a className="skill-button">CSS</a>
+                  <a className="skill-button">JS</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="lesson">
+              <div className="lesson-intro">
+                <h6>August 2021 - May 2022</h6>
+              </div>
+              <div className="lesson-details">
+                <h4>CVM Lab@IIT</h4>
+                <h6>Computational Neuroscience Research Intern</h6>
+                <p>Developed computational analysis techniques to probe brain scans for patterns between divergent scans. Created a fully-featured data generation pipeline to convert brain scans into more manageable formats. Presented findings nationally. </p>
                 <div className="skills-container">
                   <a className="skill-button">UI/UX</a>
                   <a className="skill-button">HTML</a>
@@ -237,13 +250,10 @@ export default function Content() {
                   </div>
                 </div>
               </div>
-
-              <a href="https://github.com/arunyagoojar" className="github">Visit my github profile ›</a>
             </div>
           </div>
         </div>
 
-        <p className='end'>Influenced by <a  href='https://brittanychiang.com'>Brittany Chiang's</a> portfolio, this project was reimagined with a personal twist. Developed using React and core web technologies in the Visual Studio Code environment. </p>
       </div>
     </>
   )

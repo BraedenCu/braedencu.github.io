@@ -22,17 +22,7 @@ export default function Content() {
               <div className="school-item-details">
                 <h4>Yale University</h4>
                 <h6>Bachelor of Science in Computer Science and Economics</h6>
-                <p>I am studying computer science with a specific emphasis on data structures, machine learning, and artificial intelligence. This knowledge is leveraged in tandem with economics fundamentals to perform quantatative market analysis.</p>
-              </div>
-            </div>
-            <div className="school-item">
-              <div className="school-item-intro">
-                <h6>August 2019 - June 2023</h6>
-              </div>
-              <div className="school-item-details">
-                <h4>Illinois Mathematics and Science Academy</h4>
-                <h6>Student Researcher, Class Assistant</h6>
-                <p>I am studying computer science with a specific emphasis on data structures, machine learning, and artificial intelligence. This knowledge is leveraged in tandem with economics fundamentals to perform quantatative market analysis.</p>
+                <p>I am studying computer science with a specific emphasis on data structures, machine learning, and artificial intelligence. <br></br>Yale Entreprenuership Society Head of Events and Alumni, Yale Venture Capital Fellows Venture Partner, Yale Undergraduate Diversified Investments, Yale Foreign Policy Initiative.</p>
               </div>
             </div>
           </div>
@@ -231,10 +221,6 @@ export default function Content() {
             </div>
           </div>
         </div>
-
-        {/* Full Resume Attachment */}
-        <a target="_blank" href="https://www.linkedin.com/in/braeden-cullen-4835371a1/" className="resume">View Full Résumé ›</a>
-
       </div>
     </>
   )

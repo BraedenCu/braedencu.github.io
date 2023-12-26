@@ -36,26 +36,15 @@ const Hero = () => {
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
         </div>
+
         <div className="social">
-          <a
-            href="https://github.com/BraedenCu"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://github.com/BraedenCu" target="_blank" rel="noopener noreferrer">
             <img className="g" src={githubLogo} alt="github Link" />
           </a>
-          <a
-            href="https://www.linkedin.com/in/braedencullen/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/braedencullen/" target="_blank" rel="noopener noreferrer">
             <img className="l" src={linkedinLogo} alt="Linkedin Link" />
           </a>
-          <a
-            href="https://www.instagram.com/braedencullen/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.instagram.com/braedencullen/" target="_blank" rel="noopener noreferrer">
             <img className="i" src={instagramLogo} alt="Instagram Link" />
           </a>
         </div>

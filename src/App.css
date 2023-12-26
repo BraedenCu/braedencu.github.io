@@ -3,13 +3,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0f172a;
-  overflow: hidden; /* Prevent scrollbars from appearing */
 }
 
 #root {
   width: 100vw;
   height: 100vh;
   margin: 0;
+  overflow: hidden;
 }
 
 /* pointer following circle */
@@ -17,7 +17,7 @@ body {
   z-index: 0;
   width: 400px;
   height: 400px;
-  background: rgba(96, 103, 102, 0.082);
+  background: rgba(96, 103, 102, 0.267);
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -44,7 +44,6 @@ body {
 
 
 /* hero */
-
 .main .hero {
   padding: 7vh 0 7vh 5em;
   width: 50%;
@@ -70,7 +69,7 @@ body {
 }
 
 .intro p {
-  max-width: 70%; 
+  max-width: 60%; 
   font-size: 18px;
   color: #94a3b8;
 }
@@ -109,10 +108,10 @@ a.hero-circle {
 }
 
 .menu a {
-    color: #e2e8f0;
-    opacity: 0.8;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.65);
+  color: #e2e8f0;
+  opacity: 0.8;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
   font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
@@ -125,6 +124,26 @@ a.hero-circle {
   font-weight: 900;
   color: #e2e8f0;
 }
+
+/* place dot before activated section IN PROGRESS */ 
+.menu.active {
+  color: red;
+  position: relative;
+}
+
+.menu.active::before {
+    content: '';
+    display: block;
+    height: .65em;
+    width: .65em;
+    background: currentColor;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -.65em; /* size of dot */
+    transform: translateY(-50%); /* vertical alignment */
+}
+
 .resume-link a {
   color: #e2e8f0;
   opacity: 0.8;
@@ -180,7 +199,6 @@ color: rgba(94, 234, 212, 0.85);
   scrollbar-width: none;
   /* Firefox */
   scroll-behavior: smooth;
-  
 }
 
 .content .end {
@@ -214,6 +232,85 @@ color: rgba(94, 234, 212, 0.85);
   color: rgba(94, 234, 212, 1);
 }
 
+/* about */
+.about {
+  padding: 5em 0 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-path .title{
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 0;
+}
+.about-path .title2{
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 2em;
+}
+.about-item {
+  margin: 1.5em 0;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  width: 90%;
+  border-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  border-width: 2px;
+  padding: 1em;
+  height: auto;
+  transition: all 0.35s ease;
+}
+
+.about-item:hover {
+  background-color: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(20px);
+}
+
+.about-item h6 {
+  opacity: 0.6;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.about-item-intro {
+  align-self: flex-start;
+  color: #fff;
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 30%;
+}
+
+.about-item-details {
+  padding: 0px 20px;
+  position: relative;
+  width: 100%;
+}
+
+.about-item-details h4 {
+  padding: 0;
+  margin: 0 0 0.15em;
+  font-weight: 700;
+  opacity: 0.8;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.about-item:hover .lesson-details h4 {
+  color: white;
+  /* Or any other color you prefer */
+}
+
+.about-item-details h6 {
+  opacity: 0.6;
+}
+
+.about-item-details p {
+  opacity: 0.6;
+  font-size: 16px;
+}
+
 /* education */
 .education {
   padding: 5em 0 0em;
@@ -230,7 +327,7 @@ color: rgba(94, 234, 212, 0.85);
   margin-top: 2em;
 }
 .school-item {
-  margin: 1.5em 0;
+  margin: 1em 0;
   align-items: center;
   border-radius: 10px;
   display: flex;
@@ -296,9 +393,8 @@ color: rgba(94, 234, 212, 0.85);
 
 
 /* experience */
-
 .journey {
-  padding: 5em 0 0em;
+  padding: 1em 0 0em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -312,7 +408,7 @@ color: rgba(94, 234, 212, 0.85);
   margin-top: 2em;
 }
 .lesson {
-  margin: 1.5em 0;
+  margin: 1em 0;
   align-items: center;
   border-radius: 10px;
   display: flex;
@@ -329,7 +425,7 @@ color: rgba(94, 234, 212, 0.85);
 .lesson:hover {
   background-color: rgba(255, 255, 255, 0.025);
   backdrop-filter: blur(20px);
-  border-color: rgba(94, 234, 212, 0.5);
+  border-color: #e2e8f0;
   border-style: solid;
   border-width: 2px;
 }
@@ -394,7 +490,7 @@ color: rgba(94, 234, 212, 0.85);
   margin: 5px 0;
   border-radius: 15px;
   text-decoration: none;
-  color: #5eead4;
+  color: #e2e8f0;
   text-align: center;
   font-size: 13px;
 }
@@ -409,7 +505,7 @@ color: rgba(94, 234, 212, 0.85);
   text-align: center;
   text-decoration: none;
   padding-bottom: 5px;
-  color: rgba(94, 234, 212, 0.7);
+  color: #e2e8f0;
   width: 140px;
   transition: 0.3s all ease-in-out;
 }
@@ -425,7 +521,7 @@ color: rgba(94, 234, 212, 0.85);
 }
 
 .resume:hover {
-  color: rgba(94, 234, 212, 0.85);
+  color: rgba(72, 75, 75, 0.85);
 }
 
 .github:hover {
@@ -440,7 +536,7 @@ color: rgba(94, 234, 212, 0.85);
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: rgba(94, 234, 212, 0.85);
+  background-color: rgba(72, 75, 75, 0.85);
   visibility: hidden;
   transition: 0.3s all ease-in-out;
 }
@@ -452,7 +548,6 @@ color: rgba(94, 234, 212, 0.85);
 }
 
 /*Projects*/
-
 .project-details {
   padding: 0px 20px;
   position: relative;
@@ -516,8 +611,7 @@ color: rgba(94, 234, 212, 0.85);
   color: rgba(94, 234, 212, 0.85);
 }
 
-/*responsive*/
-
+/* responsiveness */
 
 @media (max-width: 1200px) {
   .main {
@@ -562,7 +656,8 @@ color: rgba(94, 234, 212, 0.85);
   }
 }
 
-@media (max-width: 925px) {
+/* 1200px */
+@media (max-width: 925px) { 
   #root {
     height: 100%;
   }
@@ -607,7 +702,7 @@ color: rgba(94, 234, 212, 0.85);
   .lesson {
     background-color: rgba(255, 255, 255, 0.025);
     backdrop-filter: none;
-    border-color: rgba(94, 234, 212, 0.5);
+    border-color: #e2e8f0;
     color: rgba(255, 255, 255, 0.8);
     border-style: solid;
     border-width: 2px;
@@ -622,7 +717,7 @@ color: rgba(94, 234, 212, 0.85);
   .lesson:hover {
     background-color: rgba(255, 255, 255, 0.025);
     backdrop-filter: none;
-    border-color: rgba(94, 234, 212, 0.5);
+    border-color: #e2e8f0;
     border-style: solid;
     border-width: 2px;
   }
@@ -666,7 +761,8 @@ color: rgba(94, 234, 212, 0.85);
     padding: 0;
     padding-bottom: 1em;
   }
-  /*Hero*/
+
+  /* hero */
   .main .hero {
     padding: 7vh 0;
     width: 90% !important;
@@ -689,14 +785,16 @@ color: rgba(94, 234, 212, 0.85);
     padding-top: 5vh;
     width: 100% ;
   }
+
   .lesson {
     background-color: rgba(255, 255, 255, 0.025);
     backdrop-filter: blur(20px);
-    border-color: rgba(94, 234, 212, 0.5);
+    border-color: #e2e8f0;
     border-style: solid;
     border-width: 2px;
   }
 }
+
 
 .container {
   max-width: 1200px; /* Maximum width of the content */

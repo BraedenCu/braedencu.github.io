@@ -32,7 +32,6 @@ const Hero = () => {
           </p>
         </div>
         <div className="menu">
-          <a href="#about">About</a>
           <a href="#education">Education</a>
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>

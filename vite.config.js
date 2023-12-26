@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     host: '0.0.0.0'
   },
-  base: "./braedencu.github.io/"
+  base: "https://braedencu.github.io/"
 })

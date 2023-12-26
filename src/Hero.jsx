@@ -16,7 +16,7 @@ const Hero = () => {
       i = i < headings.length - 1 ? i + 1 : 0;
     };
 
-    const intervalId = setInterval(changeHeading, 2000);
+    const intervalId = setInterval(changeHeading, 1000);
     return () => clearInterval(intervalId);
   }, []);
 

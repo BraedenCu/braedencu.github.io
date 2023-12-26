@@ -154,8 +154,8 @@ export default function Content() {
                     comprehensive insights into the socio-economic and political effects of the intervention.
                   </p>
                   <div className='link'>
-                    <a href='https://arunyagoojar.me/react-tasks/'>Live↗</a>
-                    <a href='https://github.com/arunyagoojar/react-tasks'>Github↗</a>
+                    <a href='https://github.com/braedencu/'>Live↗</a>
+                    <a href='https://github.com/braedencu/'>Github↗</a>
                   </div>
                   <div className="skills-container">
                     <a className="skill-button">UI/UX</a>
@@ -180,8 +180,8 @@ export default function Content() {
                     Current prospects are on mass-production and venture-backed funding.
                   </p>
                   <div className='link'>
-                    <a href='https://arunyagoojar.me/react-tasks/'>Live↗</a>
-                    <a href='https://github.com/arunyagoojar/react-tasks'>Github↗</a>
+                    <a href='https://github.com/braedencu/'>Live↗</a>
+                    <a href='https://github.com/braedencu/'>Github↗</a>
                   </div>
                   <div className="skills-container">
                     <a className="skill-button">UI/UX</a>

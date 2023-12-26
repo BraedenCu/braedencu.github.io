@@ -1,6 +1,8 @@
 import githubLogo from './assets/github.png';
 import linkedinLogo from './assets/ln.png';
 import instagramLogo from './assets/insta.png';
+import headShot from './assets/headshot.png';
+
 import { useState, useEffect } from 'react';
 
 const Hero = () => {
@@ -24,7 +26,7 @@ const Hero = () => {
         <div className="intro">
           <h1>Braeden Cullen</h1>
           <div className="hero-circle">
-            <img height="128" width="128" src="src/assets/headshot.png" alt="Braeden Cullen"></img>
+            <img height="128" width="128" src={headShot} alt="Braeden Cullen"></img>
           </div>
           <h4>{heading}</h4>
           <p>

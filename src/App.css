@@ -62,7 +62,7 @@ body {
 }
 
 .intro h4 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #e2e8f0;
   opacity: 0.8;
   letter-spacing: 1.5px;
@@ -591,15 +591,15 @@ a.hero-circle {
 }
 
 .link a {
-  color: rgba(255, 255, 255, 0.65);
+  color: #e2e8f0;
 }
 
 .link a:hover {
-  color: rgba(94, 234, 212, 0.85);
+  color: #e2e8f0;
 }
 
 .lesson:hover .project-details h4 {
-  color: rgba(94, 234, 212, 0.85);
+  color: #e2e8f0;
 }
 
 /* responsiveness */

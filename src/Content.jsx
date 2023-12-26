@@ -124,12 +124,16 @@ export default function Content() {
                   <img className="blog" src={blog}/>
                 </div>
                 <div className="project-details">
-                  <h4>The Reader</h4>
-                  <h6>Creating a Blog Website Using GitHub Pages</h6>
-                  <p>An accessible solution for developers with basic web skills, this project offers a straightforward method to create customizable blog sites via JSON file edits and index additions.</p>
+                  <h4>EpochML</h4>
+                  <h6>Chief Technology Officer</h6>
+                  <p> 
+                      As CTO, I oversaw our technological vision and overall reliability of the HPC cluster at both the hardware and software levels.
+                      Managed a team of 20 students to develop a CUDA-enabled HPC cluster using the SLURM job scheduler.
+                      Championed the implementation of zero-trust security solutions, ensuring robust protection for the Epoch cluster and its users while facilitating secure access to computational resources.
+                  </p>
                   <div className='link'>
-                    <a href='https://arunyagoojar.me/thereader/'>Live↗</a>
-                    <a href='https://github.com/arunyagoojar/Modern-Design-Blog-Builder-Solution'>Github↗</a>
+                    <a href='https://epochml.org/'>Live↗</a>
+                    <a href='https://github.com/IMSAai'>Github↗</a>
                   </div>
                   <div className="skills-container">
                     <a className="skill-button">Github</a>
@@ -137,18 +141,28 @@ export default function Content() {
                     <a className="skill-button">CSS</a>
                     <a className="skill-button">JS</a>
                     <a className="skill-button">JSON</a>
+                    <a className="skill-button">ANSIBLE</a>
+                    <a className="skill-button">CUDA</a>
+                    <a className="skill-button">SLURM</a>
                   </div>
                 </div>
               </div>
 
               <div className="lesson">
                 <div className="icon-intro">
-                  <img src={task}/>
+                  <img src={eye}/>
                 </div>
                 <div className="project-details">
-                  <h4>React Tasks</h4>
-                  <h6>Vision OS styled Task Manager</h6>
-                  <p>React Tasks is a simple task management app with an intuitive design inspired by Apple. Easy to add, organize, and check off your daily tasks. Form meets function in this minimal productivity app.</p>
+                  <h4>Geospatial Intelligence</h4>
+                  <h6>Data Science</h6>
+                  <p>
+                    In our project, we analyzed the impact of Russian intervention in Ukrainian territories using Python and R. 
+                    We utilized Python libraries (Pandas, NumPy, Matplotlib, Seaborn) and R packages (ggplot2, dplyr, tidyr) for data manipulation, 
+                    visualization, and statistical analysis. Our methods included regression, time series analysis, and machine learning 
+                    for pattern identification, complemented by geospatial analysis with tools like GeoPandas. We emphasized data validation, 
+                    cleaning, and used Jupyter Notebooks and R Markdown for an integrated, reproducible research environment, providing 
+                    comprehensive insights into the socio-economic and political effects of the intervention.
+                  </p>
                   <div className='link'>
                     <a href='https://arunyagoojar.me/react-tasks/'>Live↗</a>
                     <a href='https://github.com/arunyagoojar/react-tasks'>Github↗</a>
@@ -165,12 +179,16 @@ export default function Content() {
 
               <div className="lesson">
                 <div className="icon-intro">
-                  <img src={task}/>
+                  <img src={a}/>
                 </div>
                 <div className="project-details">
-                  <h4>React Tasks</h4>
-                  <h6>Vision OS styled Task Manager</h6>
-                  <p>React Tasks is a simple task management app with an intuitive design inspired by Apple. Easy to add, organize, and check off your daily tasks. Form meets function in this minimal productivity app.</p>
+                  <h4>Spinertia</h4>
+                  <h6>Technical Lead</h6>
+                  <p>
+                    Cofounded a Yale-based biotech wearable start-up using artificial intelligence to create alternative modeling techniques for 
+                    spinal deviation using a sensor array. Provisionally patented on the proprietary AI model along with the design of the device. 
+                    Current prospects are on mass-production and venture-backed funding.
+                  </p>
                   <div className='link'>
                     <a href='https://arunyagoojar.me/react-tasks/'>Live↗</a>
                     <a href='https://github.com/arunyagoojar/react-tasks'>Github↗</a>
@@ -187,47 +205,29 @@ export default function Content() {
 
               <div className="lesson">
                 <div className="icon-intro">
-                  <img src={task}/>
+                  <img src={music}/>
                 </div>
                 <div className="project-details">
-                  <h4>React Tasks</h4>
-                  <h6>Vision OS styled Task Manager</h6>
-                  <p>React Tasks is a simple task management app with an intuitive design inspired by Apple. Easy to add, organize, and check off your daily tasks. Form meets function in this minimal productivity app.</p>
+                  <h4>Steel Bronco Robotics</h4>
+                  <h6>President</h6>
+                  <p>
+                    Steel Bronco Robotics is a 501(c)(3) nonprofit organization that gives underprivileged students access to competitive robotics at the highest level. Engineering programs are nonexistent in the local school system, a void that the organization fills. 
+                    Founded the organization and raised $15000 in recurring sponsorship.
+                  </p>
                   <div className='link'>
-                    <a href='https://arunyagoojar.me/react-tasks/'>Live↗</a>
-                    <a href='https://github.com/arunyagoojar/react-tasks'>Github↗</a>
+                    <a href='https://www.steelbroncorobotics.com/'>Live↗</a>
+                    <a href='https://github.com/BraedenCu/JetsonCodeFRC2020'>Github↗</a>
                   </div>
                   <div className="skills-container">
-                    <a className="skill-button">UI/UX</a>
-                    <a className="skill-button">HTML</a>
-                    <a className="skill-button">CSS</a>
-                    <a className="skill-button">JS</a>
-                    <a className="skill-button">REACT. JS</a>
+                    <a className="skill-button">LEADERSHIP</a>
+                    <a className="skill-button">AI/ML</a>
+                    <a className="skill-button">IMAGE PROCESSING</a>
+                    <a className="skill-button">DATA ANALYSIS</a>
+                    <a className="skill-button">PYTHON</a>
                   </div>
                 </div>
               </div>
 
-              <div className="lesson">
-                <div className="icon-intro">
-                  <img src={task}/>
-                </div>
-                <div className="project-details">
-                  <h4>React Tasks</h4>
-                  <h6>Vision OS styled Task Manager</h6>
-                  <p>React Tasks is a simple task management app with an intuitive design inspired by Apple. Easy to add, organize, and check off your daily tasks. Form meets function in this minimal productivity app.</p>
-                  <div className='link'>
-                    <a href='https://arunyagoojar.me/react-tasks/'>Live↗</a>
-                    <a href='https://github.com/arunyagoojar/react-tasks'>Github↗</a>
-                  </div>
-                  <div className="skills-container">
-                    <a className="skill-button">UI/UX</a>
-                    <a className="skill-button">HTML</a>
-                    <a className="skill-button">CSS</a>
-                    <a className="skill-button">JS</a>
-                    <a className="skill-button">REACT. JS</a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ export default function Content() {
   return (
     <>
       <div className="content">
-        
+    
         {/* Education Section */}
         <div id="education" className="education">
            <p className='title'>Education</p>
@@ -137,6 +137,72 @@ export default function Content() {
                     <a className="skill-button">CSS</a>
                     <a className="skill-button">JS</a>
                     <a className="skill-button">JSON</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="lesson">
+                <div className="icon-intro">
+                  <img src={task}/>
+                </div>
+                <div className="project-details">
+                  <h4>React Tasks</h4>
+                  <h6>Vision OS styled Task Manager</h6>
+                  <p>React Tasks is a simple task management app with an intuitive design inspired by Apple. Easy to add, organize, and check off your daily tasks. Form meets function in this minimal productivity app.</p>
+                  <div className='link'>
+                    <a href='https://arunyagoojar.me/react-tasks/'>Live↗</a>
+                    <a href='https://github.com/arunyagoojar/react-tasks'>Github↗</a>
+                  </div>
+                  <div className="skills-container">
+                    <a className="skill-button">UI/UX</a>
+                    <a className="skill-button">HTML</a>
+                    <a className="skill-button">CSS</a>
+                    <a className="skill-button">JS</a>
+                    <a className="skill-button">REACT. JS</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="lesson">
+                <div className="icon-intro">
+                  <img src={task}/>
+                </div>
+                <div className="project-details">
+                  <h4>React Tasks</h4>
+                  <h6>Vision OS styled Task Manager</h6>
+                  <p>React Tasks is a simple task management app with an intuitive design inspired by Apple. Easy to add, organize, and check off your daily tasks. Form meets function in this minimal productivity app.</p>
+                  <div className='link'>
+                    <a href='https://arunyagoojar.me/react-tasks/'>Live↗</a>
+                    <a href='https://github.com/arunyagoojar/react-tasks'>Github↗</a>
+                  </div>
+                  <div className="skills-container">
+                    <a className="skill-button">UI/UX</a>
+                    <a className="skill-button">HTML</a>
+                    <a className="skill-button">CSS</a>
+                    <a className="skill-button">JS</a>
+                    <a className="skill-button">REACT. JS</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="lesson">
+                <div className="icon-intro">
+                  <img src={task}/>
+                </div>
+                <div className="project-details">
+                  <h4>React Tasks</h4>
+                  <h6>Vision OS styled Task Manager</h6>
+                  <p>React Tasks is a simple task management app with an intuitive design inspired by Apple. Easy to add, organize, and check off your daily tasks. Form meets function in this minimal productivity app.</p>
+                  <div className='link'>
+                    <a href='https://arunyagoojar.me/react-tasks/'>Live↗</a>
+                    <a href='https://github.com/arunyagoojar/react-tasks'>Github↗</a>
+                  </div>
+                  <div className="skills-container">
+                    <a className="skill-button">UI/UX</a>
+                    <a className="skill-button">HTML</a>
+                    <a className="skill-button">CSS</a>
+                    <a className="skill-button">JS</a>
+                    <a className="skill-button">REACT. JS</a>
                   </div>
                 </div>
               </div>

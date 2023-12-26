@@ -2,7 +2,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #0f172a;
 }
 
 #root {
@@ -29,25 +28,28 @@ body {
   filter: blur(100px); /* Fallback blur for other browsers */
 }
 
-
+/* main body */
 .main {
   margin: 0;
   padding: 0 8vw;
   width: 85vw;
   height: 100vh !important;
-  background-color: rgba(255, 255, 255, 0.025);
   display: flex;
   flex-direction: row;
   position: relative;
   z-index: 1; /* Set the main content to be above the circle */
+  max-width: 1750px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 
 /* hero */
 .main .hero {
   padding: 7vh 0 7vh 5em;
   width: 50%;
-  height: 86vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -102,7 +104,8 @@ a.hero-circle {
 
 /*menu*/
 .menu {
-  width: 100px;
+  width: 100%;
+  height: 25vh;
   display: flex;
   flex-direction: column;
 }
@@ -144,31 +147,19 @@ a.hero-circle {
     transform: translateY(-50%); /* vertical alignment */
 }
 
-.resume-link a {
-  color: #e2e8f0;
-  opacity: 0.8;
-  color: rgba(255, 255, 255, 0.65);
-font-weight: 600;
-letter-spacing: 1px;
-text-decoration: none;
-transition: 0.3s all;
-}
-
-.resume-link a:hover {
-padding-left: 0em;
-color: rgba(94, 234, 212, 0.85);
-}
 
 /*social*/
 .social {
   display: flex;
   flex-direction: row;
   align-items: center;
+  height: 25vh;
   gap: 7px;
 }
 
 .social a img {
   filter: invert();
+  padding: 0 0;
   opacity: 0.3;
   width: 30px;
   transition: all 0.3s ease-in-out;
@@ -612,7 +603,6 @@ color: rgba(94, 234, 212, 0.85);
 }
 
 /* responsiveness */
-
 @media (max-width: 1200px) {
   .main {
     padding: 0 2vw;
@@ -796,20 +786,3 @@ color: rgba(94, 234, 212, 0.85);
 }
 
 
-.container {
-  max-width: 1200px; /* Maximum width of the content */
-  margin: 0 auto; /* Auto margins for centering and space on sides */
-  padding: 0 15px; /* Padding for small devices */
-}
-
-@media (max-width: 1200px) {
-  .container {
-      max-width: 95%; /* Allow more width on smaller screens */
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-      max-width: 100%; /* Full width on very small screens */
-  }
-}

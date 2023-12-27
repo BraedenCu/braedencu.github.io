@@ -1,10 +1,7 @@
 import blog from './assets/blog.png';
-import task from './assets/task.svg';
 import eye from './assets/eye.png';
 import a from './assets/a.svg';
 import music from './assets/music.png';
-import script from './assets/script.png';
-import update from './assets/update.png';
 
 export default function Content() {
   return (

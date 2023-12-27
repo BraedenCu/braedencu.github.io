@@ -43,9 +43,10 @@ export default function App() {
         <div className="main fade-in">
           <Hero />
           <Content />
+          <div id="circle" className="circle"></div>
         </div>
+        
       )}
-      {!showSplash && <div id="circle" className="circle"></div>}
     </>
   );
 }

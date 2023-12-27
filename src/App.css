@@ -62,7 +62,7 @@ body {
   -webkit-backdrop-filter: blur(100px); /* For Safari */
   backdrop-filter: blur(100px); /* For modern browsers */
   filter: blur(100px); /* Fallback blur for other browsers */
-  transition: all 0.2s ease;
+  opacity: 30%;
 
 }
 
@@ -656,6 +656,7 @@ a.hero-circle {
   }
 }
 
+/* approx. half screen resolution */
 @media (max-width: 1000px) {
   .main {
     padding: 0 1vw;
@@ -665,18 +666,18 @@ a.hero-circle {
   .main .hero {
     padding: 7vh 0 7vh 2em;
     width: 45%;
-    height: 86vh;
+    height: 100vh; /* 86vh previously, adjusted to fix icon locations */
   }
 
   .content {
     width: 55%;
-    height: calc(100vh - 15vh);
+    height: 100vh; /* calc(100vh - 15vh) previously, adjusted to fix icon locations */
     padding: 3vh 0em 2vh 0;
   }
 }
 
 /* 1200px */
-@media (max-width: 925px) { 
+@media (max-width: 600px) { 
   #root {
     height: 100%;
   }
@@ -717,42 +718,32 @@ a.hero-circle {
   .content .end {
     padding: 5em 1em;
   }
-
-  .lesson {
+  .school-item {
     background-color: rgba(255, 255, 255, 0.025);
     backdrop-filter: none;
-    border-color: #ffffff;
     color: rgba(255, 255, 255, 0.8);
-    border-style: solid;
-    border-width: 2px;
   }
-  .lesson-details h4 {
-    color: white;
-    /* Or any other color you prefer */
-  }
-  .project-details h4 {
+  .school-item-details h4 {
     color: white;
   }
-  .lesson:hover {
+
+  .school-item:hover {
     background-color: rgba(255, 255, 255, 0.025);
     backdrop-filter: none;
-    border-color: #ffffff;
-    border-style: solid;
-    border-width: 2px;
   }
-  .lesson:hover .lesson-details h4 {
+  .school-item:hover .school-item-details h4 {
     color: white;
   }
-  .lesson:hover .project-details h4 {
+  .school-item:hover .school-item-details h4 {
     color: white;
   }
 }
 
-@media (max-width: 500px) {
+
+@media (max-width: 800px) {
   #root {
     height: 100%;
   }
-
   .main {
     padding: 0;
     height: 100% !important;
@@ -808,8 +799,5 @@ a.hero-circle {
   .lesson {
     background-color: rgba(255, 255, 255, 0.025);
     backdrop-filter: blur(20px);
-    border-color: #ffffff;
-    border-style: solid;
-    border-width: 2px;
   }
 }

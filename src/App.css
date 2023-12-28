@@ -21,15 +21,11 @@ body {
   flex-direction: row;
   position: relative;
   z-index: 1; /* Set the main content to be above the circle */
-  max-width: 1750px;
   margin-left: auto;
   margin-right: auto;
   opacity: 0; /* Start with the main content being invisible */
   transition: opacity 2s ease; /* Transition for the fade-in effect */
 }
-
-/* main splash */
-.main-splash { background-color: #0f172a; height: 100vh; width: 100vh; overflow: hidden }
 
 /* splash screen */
 .splash-screen {
@@ -49,7 +45,7 @@ body {
 
 /* pointer following circle */
 .circle {
-  z-index: 0;
+  z-index: -1 ;
   width: 400px;
   height: 400px;
   background: rgba(96, 103, 102, 0.267);
@@ -62,19 +58,20 @@ body {
   -webkit-backdrop-filter: blur(100px); /* For Safari */
   backdrop-filter: blur(100px); /* For modern browsers */
   filter: blur(100px); /* Fallback blur for other browsers */
-  opacity: 30%;
+  opacity: 50%;
 
 }
 
 
 /* hero */
-.main .hero {
+.hero {
   padding: 7vh 0 7vh 5em;
   width: 50%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-left: 5rem;
 }
 
 .intro h1 {
@@ -94,7 +91,7 @@ body {
 
 .intro p {
   max-width: 60%; 
-  font-size: 18px;
+  font-size: 18 px;
   color: #94a3b8;
 }
 
@@ -148,12 +145,6 @@ a.hero-circle {
   letter-spacing: 3px;
   font-weight: 900;
   color: #ffffff;
-}
-
-/* place dot before activated section IN PROGRESS */ 
-.menu.active {
-  color: red;
-  position: relative;
 }
 
 .menu.active::before {
@@ -213,7 +204,6 @@ a.hero-circle {
   width: 50%;
   height: calc(100vh - 8vh);
   /* Adjust the height based on the sum of the padding values. */
-  padding: 7vh 5em 1vh 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -223,6 +213,7 @@ a.hero-circle {
   scrollbar-width: none;
   /* Firefox */
   scroll-behavior: smooth;
+  padding-right: 5rem;
 }
 
 .content .end {
@@ -332,7 +323,7 @@ a.hero-circle {
 
 .about-item-details p {
   opacity: 0.6;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* education */
@@ -411,7 +402,7 @@ a.hero-circle {
 
 .school-item-details p {
   opacity: 0.6;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -492,7 +483,7 @@ a.hero-circle {
 
 .lesson-details p {
   opacity: 0.6;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .skills-container {
@@ -589,7 +580,7 @@ a.hero-circle {
 
 .project-details p {
   opacity: 0.6;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .icon-intro {
@@ -631,116 +622,9 @@ a.hero-circle {
   color: #ffffff;
 }
 
+
 /* responsiveness */
-@media (max-width: 1200px) {
-  .main {
-    padding: 0 2vw;
-    width: 96vw;
-  }
-  .intro p {
-    max-width: 100%;
-    font-size: 16px;
-    color: #94a3b8;
-  }
-
-  .main .hero {
-    padding: 7vh 0 7vh 3em;
-    width: 45%;
-    height: 86vh;
-  }
-
-  .content {
-    width: 55%;
-    height: calc(100vh - 15vh);
-    padding: 6vh 0em 3vh 0;
-  }
-}
-
-/* approx. half screen resolution */
-@media (max-width: 1000px) {
-  .main {
-    padding: 0 1vw;
-    width: 98vw;
-  }
-
-  .main .hero {
-    padding: 7vh 0 7vh 2em;
-    width: 45%;
-    height: 100vh; /* 86vh previously, adjusted to fix icon locations */
-  }
-
-  .content {
-    width: 55%;
-    height: 100vh; /* calc(100vh - 15vh) previously, adjusted to fix icon locations */
-    padding: 3vh 0em 2vh 0;
-  }
-}
-
-/* 1200px */
-@media (max-width: 600px) { 
-  #root {
-    height: 100%;
-  }
-
-  .main {
-    padding: 0;
-    height: 100%;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-  }
-
-  /*Hero*/
-  .main .hero {
-    padding: 7vh 0;
-    width: 85% !important;
-    height: 85% !important;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .menu{
-    display: none;
-  }
-  
-  .content {
-    align-items: center;
-    width: 80% !important;
-    height: 100% !important;
-    padding: 3vh 0 0;
-    overflow-y: unset;
-  }
-  .content .about {
-    padding-top: 5vh;
-    width: 100% ;
-  }
-  .content .end {
-    padding: 5em 1em;
-  }
-  .school-item {
-    background-color: rgba(255, 255, 255, 0.025);
-    backdrop-filter: none;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  .school-item-details h4 {
-    color: white;
-  }
-
-  .school-item:hover {
-    background-color: rgba(255, 255, 255, 0.025);
-    backdrop-filter: none;
-  }
-  .school-item:hover .school-item-details h4 {
-    color: white;
-  }
-  .school-item:hover .school-item-details h4 {
-    color: white;
-  }
-}
-
-
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   #root {
     height: 100%;
   }
@@ -762,6 +646,14 @@ a.hero-circle {
   .lesson{
     flex-direction: column;
   }
+  .school-item {
+    flex-direction: column;
+  }
+  .school-item-intro {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 1em;
+  }
   .lesson-intro{
     width: 100%;
     padding: 0;
@@ -780,9 +672,7 @@ a.hero-circle {
     flex-direction: column;
     justify-content: center;
   }
-  .menu{
-    display: none;
-  }
+
   .content {
     align-items: center;
     width: 90% !important;
@@ -796,8 +686,4 @@ a.hero-circle {
     width: 100% ;
   }
 
-  .lesson {
-    background-color: rgba(255, 255, 255, 0.025);
-    backdrop-filter: blur(20px);
-  }
 }

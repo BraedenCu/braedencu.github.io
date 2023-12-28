@@ -5,7 +5,7 @@ import headShot from './assets/headshot.png';
 
 import { useState, useEffect } from 'react';
 
-const Hero = () => {
+export default function Hero() {
   const [heading, setHeading] = useState('Engineer');
   useEffect(() => {
     const headings = ['Creative', 'Engineer', 'Designer', 'Developer', 'Artist', 'Student', 'Learner', 'Problem Solver', 'Innovator', 'Collaborator', 'Leader', 'Mentor', 'Friend', 'Teammate', 'Volunteer', 'Advocate', 'Activist', 'Writer', 'Speaker', 'Musician', 'Dancer', 'Athlete', 'Explorer', 'Traveler', 'Photographer', 'Reader', 'Linguist', 'Polyglot', 'Human'];
@@ -30,13 +30,13 @@ const Hero = () => {
           </div>
           <h4>{heading}</h4>
           <p>
-            A software engineer dedicated to leveraging advanced technical expertise and analytical  skills to address global challenges, with a strong foundation in AI, big data, and entrepreneurship.
+            I leverage software to address global challenges, with a strong foundation in AI, big data, and entrepreneurship. Engineering new experiences for future generations.
           </p>
         </div>
         <div className="menu">
-          <a href="#education">Education</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
+          <a className="menu-item active" href="#education">Education</a>
+          <a className="menu-item" href="#experience">Experience</a>
+          <a className="menu-item" href="#projects">Projects</a>
         </div>
 
         <div className="social">
@@ -54,5 +54,3 @@ const Hero = () => {
     </>
   );
 }
-
-export default Hero;

@@ -7,7 +7,7 @@ export default function Content() {
   return (
     <>
       <div className="content">
-    
+
         {/* Education Section */}
         <div id="education" className="education">
            <p className='title'>Education</p>
@@ -108,7 +108,7 @@ export default function Content() {
 
               <div className="lesson">
                 <div className="icon-intro">
-                  <img className="blog" src={blog}/>
+                  <img src={music}/>
                 </div>
                 <div className="project-details">
                   <h4>EpochML</h4>

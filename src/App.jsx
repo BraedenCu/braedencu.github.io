@@ -10,7 +10,6 @@ export default function App() {
   const handleSplashFadeOut = () => {
     setShowMainContent(true);
   };
-
   
   // Function to handle mousemove event
   const moveCircle = (e) => {

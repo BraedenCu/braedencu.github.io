@@ -65,7 +65,7 @@ body {
 
 /* hero */
 .hero {
-  padding: 7vh 0 7vh 5em;
+  padding: 6vh 0 7vh 5em;
   width: 50%;
   height: 100vh;
   display: flex;
@@ -202,7 +202,7 @@ a.hero-circle {
 /*Content*/
 .content {
   width: 50%;
-  height: calc(100vh - 8vh);
+  height: 100vh - 6vh; /* calc(100vh - 8vh) *
   /* Adjust the height based on the sum of the padding values. */
   display: flex;
   flex-direction: column;

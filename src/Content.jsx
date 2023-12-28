@@ -14,7 +14,7 @@ export default function Content() {
 
             <div className="school-item">
               <div className="school-item-intro">
-                <h6>August 2023 - June 2027</h6>
+                <h6>2023 — June 2027</h6>
               </div>
               <div className="school-item-details">
                 <h4>Yale University</h4>
@@ -30,7 +30,7 @@ export default function Content() {
            <p className='title'>Experience</p>
             <div className="lesson">
               <div className="lesson-intro">
-                <h6>August 2023 - Present</h6>
+                <h6>2023 — Present</h6>
               </div>
               <div className="lesson-details">
                 <h4>Yale Foreign Policy Institute, Department of Defence</h4>
@@ -47,7 +47,7 @@ export default function Content() {
 
             <div className="lesson">
               <div className="lesson-intro">
-                <h6>May 2022 - June 2023</h6>
+                <h6>2022 — 2023</h6>
               </div>
               <div className="lesson-details">
                 <h4>University of Chicago, Globus Labs </h4>
@@ -66,7 +66,7 @@ export default function Content() {
 
             <div className="lesson">
               <div className="lesson-intro">
-                <h6>May 2022 - August 2022</h6>
+                <h6>2022 — 2022</h6>
               </div>
               <div className="lesson-details">
                 <h4>Argonne National Laboratory</h4>
@@ -83,7 +83,7 @@ export default function Content() {
 
             <div className="lesson">
               <div className="lesson-intro">
-                <h6>August 2021 - May 2022</h6>
+                <h6>2021 — 2022</h6>
               </div>
               <div className="lesson-details">
                 <h4>CVM Lab@IIT</h4>

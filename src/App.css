@@ -637,6 +637,7 @@ a.hero-circle {
     position: relative;
     align-items: center;
   }
+
   .resume{
     width: 150px;
   }
@@ -665,14 +666,20 @@ a.hero-circle {
   }
 
   /* hero */
-  .main .hero {
-    padding: 7vh 0;
+  .hero {
+    padding: 1vh 0;
     width: 90% !important;
     height: auto !important;
     flex-direction: column;
     justify-content: center;
   }
 
+  .intro p {
+    max-width: 80%; 
+    font-size: 18 px;
+    color: #94a3b8;
+  }
+  
   .content {
     align-items: center;
     width: 90% !important;

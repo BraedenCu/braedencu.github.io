@@ -24,14 +24,14 @@ export default function Content() {
           </div>
 
         {/* Education Section */}
-        <div id="experience" className="journey">
-          <div className="learning-path">
+        <div id="experience" className="experience">
+          <div className="experience-path">
            <p className='title'>Experience</p>
-            <div className="lesson">
-              <div className="lesson-intro">
+            <div className="experience-item">
+              <div className="experience-item-intro">
                 <h6>2023 — Present</h6>
               </div>
-              <div className="lesson-details">
+              <div className="experience-item-details">
                 <h4>Yale Foreign Policy Institute, Department of Defence</h4>
                 <h6>Big Data Architect</h6>
                 <p>Apply advanced data analysis to identify foreign intervention in regions of high interest to United States national security. Leveraged geospatial analysis techniques with a heavy emphasis on ML-based solutions. Working closely with the Department of Defense and the National Geospatial-Intelligence Agency to investigate Russian activity in Africa.</p>
@@ -44,11 +44,11 @@ export default function Content() {
               </div>
             </div>
 
-            <div className="lesson">
-              <div className="lesson-intro">
+            <div className="experience-item">
+              <div className="experience-item-intro">
                 <h6>2022 — 2023</h6>
               </div>
-              <div className="lesson-details">
+              <div className="experience-item-details">
                 <h4>University of Chicago, Globus Labs </h4>
                 <h6>Software Engineer</h6>
                 <p>Developed Moment, a site for connecting artificial intelligence researchers in academia to passionate collaborators to improve academic turnover through crowdsourced collaboration. Worked on DLHub and Foundry, python packages leveraged to increase the reusability of cutting-edge machine learning models from academic papers immediately upon publication.  These projects contribute to the democratization of ML research, guided by an overarching desire to keep the powers of ML out of the tight grasp of a select few powerful entities.</p>
@@ -62,11 +62,11 @@ export default function Content() {
               </div>
             </div>
 
-            <div className="lesson">
-              <div className="lesson-intro">
+            <div className="experience-item">
+              <div className="experience-item-intro">
                 <h6>2022 — 2022</h6>
               </div>
-              <div className="lesson-details">
+              <div className="experience-item-details">
                 <h4>Argonne National Laboratory</h4>
                 <h6>Artificial Intelligence Research Intern</h6>
                 <p>Filtered and processed global climate radar data to highlight global vulnerability by region. Developed a fully featured machine learning-based pipeline to address the climate data crisis by improving the usability of climate radar data for statistical analysis.  Utilized ML-based downscaling techniques to produce radar data improved by a 16x scale magnification factor.</p>
@@ -78,11 +78,11 @@ export default function Content() {
               </div>
             </div>
 
-            <div className="lesson">
-              <div className="lesson-intro">
+            <div className="experience-item">
+              <div className="experience-item-intro">
                 <h6>2021 — 2022</h6>
               </div>
-              <div className="lesson-details">
+              <div className="experience-item-details">
                 <h4>CVM Lab@IIT</h4>
                 <h6>Computational Neuroscience Research Intern</h6>
                 <p>Developed computational analysis techniques to probe brain scans for patterns between divergent scans. Created a fully-featured data generation pipeline to convert brain scans into more manageable formats. Presented findings nationally. </p>
@@ -102,7 +102,7 @@ export default function Content() {
             <div className="learning-path">
            <p className='title2'>Projects</p>
 
-              <div className="lesson">
+              <div className="experience-item">
                 <div className="icon-intro">
                   <img src={music}/>
                 </div>
@@ -128,7 +128,7 @@ export default function Content() {
                 </div>
               </div>
 
-              <div className="lesson">
+              <div className="experience-item">
                 <div className="icon-intro">
                   <img src={eye}/>
                 </div>
@@ -150,7 +150,7 @@ export default function Content() {
                 </div>
               </div>
 
-              <div className="lesson">
+              <div className="experience-item">
                 <div className="icon-intro">
                   <img src={a}/>
                 </div>
@@ -176,7 +176,7 @@ export default function Content() {
                 </div>
               </div>
 
-              <div className="lesson">
+              <div className="experience-item">
                 <div className="icon-intro">
                   <img src={music}/>
                 </div>
@@ -192,7 +192,6 @@ export default function Content() {
                     <a href='https://github.com/BraedenCu/JetsonCodeFRC2020'>Github↗</a>
                   </div>
                   <div className="skills-container">
-                    <a className="skill-button">LEADERSHIP</a>
                     <a className="skill-button">AI/ML</a>
                     <a className="skill-button">IMAGE PROCESSING</a>
                     <a className="skill-button">DATA ANALYSIS</a>

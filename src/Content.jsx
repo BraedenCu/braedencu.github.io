@@ -11,7 +11,6 @@ export default function Content() {
         {/* Education Section */}
         <div id="education" className="education">
            <p className='title'>Education</p>
-
             <div className="school-item">
               <div className="school-item-intro">
                 <h6>2023 — June 2027</h6>
@@ -19,7 +18,7 @@ export default function Content() {
               <div className="school-item-details">
                 <h4>Yale University</h4>
                 <h6>Bachelor of Science in Computer Science and Economics</h6>
-                <p>I am studying computer science with a specific emphasis on data structures, machine learning, and artificial intelligence. <br></br>Yale Entreprenuership Society Head of Events and Alumni, Yale Venture Capital Fellows Venture Partner, Yale Undergraduate Diversified Investments, Yale Foreign Policy Initiative.</p>
+                <p>Activities: Yale Entrepreneurial Society, Yale Venture Capital Fellows Venture Partner, Yale Undergraduate Diversified Investments, Yale Foreign Policy Initiative, Y/CS.</p>
               </div>
             </div>
           </div>
@@ -35,11 +34,11 @@ export default function Content() {
               <div className="lesson-details">
                 <h4>Yale Foreign Policy Institute, Department of Defence</h4>
                 <h6>Big Data Architect</h6>
-                <p>Apply advanced data analytics to analyze foreign intervention in regions of high interest to United States national security through high-level geospatial analysis using machine learning techniques. Work closely with the Department of Defense and the National Geospatial-Intelligence Agency to investigate Russian collusion in Africa.  </p>
+                <p>Apply advanced data analysis to identify foreign intervention in regions of high interest to United States national security. Leveraged geospatial analysis techniques with a heavy emphasis on ML-based solutions. Working closely with the Department of Defense and the National Geospatial-Intelligence Agency to investigate Russian activity in Africa.</p>
                 <div className="skills-container">
                   <a className="skill-button">R</a>
                   <a className="skill-button">PYTHON</a>
-                  <a className="skill-button">ML</a>
+                  <a className="skill-button">AI/ML</a>
                   <a className="skill-button">BIG DATA</a>
                 </div>
               </div>
@@ -52,14 +51,13 @@ export default function Content() {
               <div className="lesson-details">
                 <h4>University of Chicago, Globus Labs </h4>
                 <h6>Software Engineer</h6>
-                <p>Developed Moment, a site for connecting artificial intelligence researchers in academia to passionate collaborators to improve academic turnover through crowdsourced collaboration: labs.globus.org/projects/foundry.html. Worked on DLHub and Foundry, python packages leveraged to increase the reproducibility of cutting-edge machine learning models from academic papers immediately upon publication: labs.globus.org/projects/dlhub.html.</p>
+                <p>Developed Moment, a site for connecting artificial intelligence researchers in academia to passionate collaborators to improve academic turnover through crowdsourced collaboration. Worked on DLHub and Foundry, python packages leveraged to increase the reusability of cutting-edge machine learning models from academic papers immediately upon publication.  These projects contribute to the democratization of ML research, guided by an overarching desire to keep the powers of ML out of the tight grasp of a select few powerful entities.</p>
                 <div className="skills-container">
                   <a className="skill-button">UI/UX</a>
-                  <a className="skill-button">GRAPHIC DESIGN</a>
-                  <a className="skill-button">HTML</a>
-                  <a className="skill-button">CSS</a>
+                  <a className="skill-button">HTML/CSS</a>
                   <a className="skill-button">JS</a>
-                  <a className="skill-button">REACT. JS</a>
+                  <a className="skill-button">REACT</a>
+                  <a className="skill-button">PYTHON</a>
                 </div>
               </div>
             </div>
@@ -73,10 +71,9 @@ export default function Content() {
                 <h6>Artificial Intelligence Research Intern</h6>
                 <p>Filtered and processed global climate radar data to highlight global vulnerability by region. Developed a fully featured machine learning-based pipeline to address the climate data crisis by improving the usability of climate radar data for statistical analysis.  Utilized ML-based downscaling techniques to produce radar data improved by a 16x scale magnification factor.</p>
                 <div className="skills-container">
-                  <a className="skill-button">UI/UX</a>
-                  <a className="skill-button">HTML</a>
-                  <a className="skill-button">CSS</a>
-                  <a className="skill-button">JS</a>
+                  <a className="skill-button">AI/ML</a>
+                  <a className="skill-button">PYTHON</a>
+                  <a className="skill-button">BIG DATA</a>
                 </div>
               </div>
             </div>
@@ -90,10 +87,9 @@ export default function Content() {
                 <h6>Computational Neuroscience Research Intern</h6>
                 <p>Developed computational analysis techniques to probe brain scans for patterns between divergent scans. Created a fully-featured data generation pipeline to convert brain scans into more manageable formats. Presented findings nationally. </p>
                 <div className="skills-container">
-                  <a className="skill-button">UI/UX</a>
-                  <a className="skill-button">HTML</a>
-                  <a className="skill-button">CSS</a>
-                  <a className="skill-button">JS</a>
+                  <a className="skill-button">PYTHON</a>
+                  <a className="skill-button">C++</a>
+                  <a className="skill-button">BIG DATA</a>
                 </div>
               </div>
             </div>
@@ -114,7 +110,7 @@ export default function Content() {
                   <h4>EpochML</h4>
                   <h6>Chief Technology Officer</h6>
                   <p> 
-                      As CTO, I oversaw our technological vision and overall reliability of the HPC cluster at both the hardware and software levels.
+                      I oversaw our technological vision and overall reliability of the HPC cluster at both the hardware and software levels.
                       Managed a team of 20 students to develop a CUDA-enabled HPC cluster using the SLURM job scheduler.
                       Championed the implementation of zero-trust security solutions, ensuring robust protection for the Epoch cluster and its users while facilitating secure access to computational resources.
                   </p>
@@ -123,11 +119,8 @@ export default function Content() {
                     <a href='https://github.com/IMSAai'>Github↗</a>
                   </div>
                   <div className="skills-container">
-                    <a className="skill-button">Github</a>
-                    <a className="skill-button">HTML</a>
-                    <a className="skill-button">CSS</a>
+                    <a className="skill-button">HTML/CSS</a>
                     <a className="skill-button">JS</a>
-                    <a className="skill-button">JSON</a>
                     <a className="skill-button">ANSIBLE</a>
                     <a className="skill-button">CUDA</a>
                     <a className="skill-button">SLURM</a>
@@ -143,23 +136,16 @@ export default function Content() {
                   <h4>Geospatial Intelligence</h4>
                   <h6>Data Science</h6>
                   <p>
-                    In our project, we analyzed the impact of Russian intervention in Ukrainian territories using Python and R. 
-                    We utilized Python libraries (Pandas, NumPy, Matplotlib, Seaborn) and R packages (ggplot2, dplyr, tidyr) for data manipulation, 
-                    visualization, and statistical analysis. Our methods included regression, time series analysis, and machine learning 
-                    for pattern identification, complemented by geospatial analysis with tools like GeoPandas. We emphasized data validation, 
-                    cleaning, and used Jupyter Notebooks and R Markdown for an integrated, reproducible research environment, providing 
-                    comprehensive insights into the socio-economic and political effects of the intervention.
+                    As a member of a team of post-graduate researchers at Yale University, I analyzed the impact of Russian intervention in Ukrainian territories using Python and R. We utilized Python libraries (Pandas, NumPy, Matplotlib, Seaborn) and R packages (ggplot2, dplyr, tidyr) for data manipulation, visualization, and statistical analysis. Our methods included regression, time series analysis, and machine learning for pattern identification, complemented by geospatial analysis with tools like GeoPandas. We emphasized data validation, cleaning, and used Jupyter Notebooks and R Markdown for an integrated, reproducible research environment, providing comprehensive insights into the socio-economic and political effects of the intervention.
                   </p>
                   <div className='link'>
                     <a href='https://github.com/braedencu/'>Live↗</a>
                     <a href='https://github.com/braedencu/'>Github↗</a>
                   </div>
                   <div className="skills-container">
-                    <a className="skill-button">UI/UX</a>
-                    <a className="skill-button">HTML</a>
-                    <a className="skill-button">CSS</a>
-                    <a className="skill-button">JS</a>
-                    <a className="skill-button">REACT. JS</a>
+                    <a className="skill-button">PYTHON</a>
+                    <a className="skill-button">BIG DATA</a>
+                    <a className="skill-button">AI/ML</a>
                   </div>
                 </div>
               </div>
@@ -172,9 +158,9 @@ export default function Content() {
                   <h4>Spinertia</h4>
                   <h6>Technical Lead</h6>
                   <p>
-                    Cofounded a Yale-based biotech wearable start-up using artificial intelligence to create alternative modeling techniques for 
+                    Cofounded a venture-backed Yale-based biotech wearable start-up using artificial intelligence to create alternative modeling techniques for 
                     spinal deviation using a sensor array. Provisionally patented on the proprietary AI model along with the design of the device. 
-                    Current prospects are on mass-production and venture-backed funding.
+                    Current prospects are on mass-production and continuing to raise capital.
                   </p>
                   <div className='link'>
                     <a href='https://github.com/braedencu/'>Live↗</a>
@@ -182,10 +168,10 @@ export default function Content() {
                   </div>
                   <div className="skills-container">
                     <a className="skill-button">UI/UX</a>
-                    <a className="skill-button">HTML</a>
-                    <a className="skill-button">CSS</a>
+                    <a className="skill-button">HTML/CSS</a>
                     <a className="skill-button">JS</a>
-                    <a className="skill-button">REACT. JS</a>
+                    <a className="skill-button">REACT</a>
+                    <a className="skill-button">PYTHON</a>
                   </div>
                 </div>
               </div>

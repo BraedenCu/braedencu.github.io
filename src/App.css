@@ -89,7 +89,7 @@ body {
 }
 
 .intro p {
-  max-width: 60%; 
+  max-width: 80%; 
   font-size: 18 px;
   color: #94a3b8;
 }
@@ -623,7 +623,16 @@ a.hero-circle {
 
 
 /* responsiveness */
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
+  .hero {padding-left: 2em;}
+  .content {padding-right: 2em;}
+  .main {padding: 0; width: 100vw}
+  .intro p{max-width: 90% !important;}
+}
+
+
+
+@media (max-width: 800px  ) {
   #root {
     height: 100%;
   }
@@ -674,7 +683,7 @@ a.hero-circle {
   }
 
   .intro p {
-    max-width: 80%; 
+    max-width: 90%; 
     font-size: 18 px;
     color: #94a3b8;
   }

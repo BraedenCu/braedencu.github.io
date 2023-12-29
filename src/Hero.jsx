@@ -30,7 +30,9 @@ export default function Hero() {
           </div>
           <h4>{heading}</h4>
           <p>
-            I leverage software to address global challenges, with a strong foundation in AI, big data, and entrepreneurship. Engineering new experiences for future generations.
+            I leverage software to address global challenges, with a strong foundation in AI, big data, and entrepreneurship. 
+            Engineering new experiences for future generations.
+            Currently building at Spinertia, the Yale Foreign Policy Institute (YFPI + DOD), and the Yale Entreprenurial Society (YES). 
           </p>
         </div>
         <div className="menu">

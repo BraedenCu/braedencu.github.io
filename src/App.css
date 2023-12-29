@@ -385,19 +385,16 @@ a.hero-circle {
   height: auto;
   transition: all 0.35s ease;
 }
-
 .experience-item:hover {
   background-color: rgba(255, 255, 255, 0.025);
   backdrop-filter: blur(20px);
 }
-
 .experience-item h6 {
   opacity: 0.6;
   margin: 0;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
 .experience-item-intro {
   align-self: flex-start;
   color: #fff;
@@ -405,13 +402,11 @@ a.hero-circle {
   padding-left: 10px;
   width: 30%;
 }
-
 .experience-item-details {
   padding: 0px 20px;
   position: relative;
   width: 100%;
 }
-
 .experience-item-details h4 {
   padding: 0;
   margin: 0 0 0.15em;
@@ -420,27 +415,22 @@ a.hero-circle {
   font-size: 18px;
   transition: color 0.3s ease;
 }
-
 .experience-item:hover .experience-item-details h4 {
   color: white;
 }
-
 .experience-item-details h6 {
   opacity: 0.6;
 }
-
 .experience-item-details p {
   opacity: 0.6;
   font-size: 14px;
 }
-
 .skills-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 5px;
 }
-
 .skill-button {
   background-color: rgba(94, 234, 212, 0.1);
   backdrop-filter: blur(20px);
@@ -453,12 +443,11 @@ a.hero-circle {
   text-align: center;
   font-size: 13px;
 }
-
 .skill-button:hover {
   color: white;
 }
 
-/*Resume*/
+/* resume */
 .resume {
   position: relative;
   text-align: center;
@@ -468,7 +457,6 @@ a.hero-circle {
   width: 140px;
   transition: 0.3s all ease-in-out;
 }
-
 .github {
   position: relative;
   text-align: center;
@@ -478,15 +466,12 @@ a.hero-circle {
   width: 140px;
   transition: 0.3s all ease-in-out;
 }
-
 .resume:hover {
   color: rgba(72, 75, 75, 0.85);
 }
-
 .github:hover {
   color: rgba(94, 234, 212, 0.85);
 }
-
 .resume::before,
 .github::before {
   content: '';
@@ -499,7 +484,6 @@ a.hero-circle {
   visibility: hidden;
   transition: 0.3s all ease-in-out;
 }
-
 .resume:hover::before,
 .github:hover::before {
   visibility: visible;
@@ -512,7 +496,6 @@ a.hero-circle {
   position: relative;
   width: 100%;
 }
-
 .project-details h4 {
   padding: 0;
   margin: 0 0 0.15em;
@@ -521,16 +504,13 @@ a.hero-circle {
   font-size: 18px;
   transition: color 0.3s ease;
 }
-
 .project-details h6 {
   opacity: 0.6;
 }
-
 .project-details p {
   opacity: 0.6;
   font-size: 14px;
 }
-
 .icon-intro {
   justify-content: center;
   align-self: flex-start;
@@ -539,17 +519,14 @@ a.hero-circle {
   padding-left: 10px;
   width: 30%;
 }
-
 .icon-intro img {
   width: 60%;
   opacity: 0.6;
 }
-
 .icon-intro .blog {
   width: 80%;
   margin-left: -10px;
 }
-
 .link {
   padding-left: 0.3em;
   padding-bottom: 0.5em;
@@ -557,16 +534,13 @@ a.hero-circle {
   flex-direction: row;
   gap: 20px;
 }
-
 .link a {
   color: #ffffff;
 }
-
 .link a:hover {
   color: #ffffff;
 }
-
-.lesson:hover .project-details h4 {
+.experience-item:hover .project-details h4 {
   color: #ffffff;
 }
 
@@ -579,12 +553,8 @@ a.hero-circle {
   .intro p{max-width: 90% !important;}
 }
 
-
-
 @media (max-width: 800px  ) {
-  #root {
-    height: 100%;
-  }
+  #root {height: 100%;}
   .main {
     padding: 0;
     height: 100% !important;
@@ -594,19 +564,11 @@ a.hero-circle {
     position: relative;
     align-items: center;
   }
-
-  .resume{
-    width: 150px;
-  }
-  .github{
-    width: 150px;
-  }
-  .lesson{
-    flex-direction: column;
-  }
-  .school-item {
-    flex-direction: column;
-  }
+  .circle {opacity: 0%;}
+  .resume {width: 150px;}
+  .github {width: 150px; }
+  .lesson {flex-direction: column;}
+  .school-item {flex-direction: column;}
   .school-item-intro {
     width: 100%;
     padding: 0;
@@ -621,8 +583,6 @@ a.hero-circle {
     padding: 0;
     padding-bottom: 1em;
   }
-
-  /* hero */
   .hero {
     padding: 1vh 0;
     width: 90% !important;
@@ -630,13 +590,11 @@ a.hero-circle {
     flex-direction: column;
     justify-content: center;
   }
-
   .intro p {
     max-width: 90%; 
     font-size: 18 px;
     color: #94a3b8;
   }
-  
   .content {
     align-items: center;
     width: 90% !important;
@@ -648,9 +606,5 @@ a.hero-circle {
   .content .about {
     padding-top: 5vh;
     width: 100% ;
-  }
-
-  .circle {
-    opacity: 0%;
   }
 }

@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 
-/* main body */
+/* Main body */
 .main {
   margin: 0;
   padding: 0 8vw;
@@ -26,24 +26,22 @@ body {
   opacity: 0; /* Start with the main content being invisible */
   transition: opacity 2s ease; /* Transition for the fade-in effect */
 }
-
-/* splash screen */
-.splash-screen {
-  transition: opacity 1s ease;
-  opacity: 1;
-}
-
-.splash-screen.fade-out {
-  opacity: 0;
-}
-
-/* Transition the main content to visible */
 .main.fade-in {
   opacity: 1;
 }
 
 
-/* pointer following circle */
+/* Splash screen */
+.splash-screen {
+  transition: opacity 1s ease;
+  opacity: 1;
+}
+.splash-screen.fade-out {
+  opacity: 0;
+}
+
+
+/* light circle attached to pointer */
 .circle {
   z-index: -1 ;
   width: 400px;
@@ -73,28 +71,7 @@ body {
   padding-left: 5rem;
 }
 
-.intro h1 {
-  font-size: 48px;
-  color: #ffffff;
-  margin-bottom: 0px;
-}
-
-.intro h4 {
-  margin-bottom: 20px;
-  color: #ffffff;
-  opacity: 0.8;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.intro p {
-  max-width: 80%; 
-  font-size: 18 px;
-  color: #94a3b8;
-}
-
-/* Circle Avatar Styles */
+/* profile photo */
 .hero-circle {
 	line-height: 0;		/* remove line-height */ 
 	display: inline-block;	/* circle wraps image */
@@ -107,8 +84,7 @@ body {
   width: 128px;
 }
 .hero-circle img {
-	border-radius: 50%;	/* relative value for
-				   adjustable image size */
+	border-radius: 50%;	/* relative value for adjustable image size */
 }
 .hero-circle:hover {
 	transition: ease-out 0.2s;
@@ -116,18 +92,34 @@ body {
   -webkit-transition: ease-out 0.2s;
 }
 a.hero-circle {
-  color: transparent;
-} /* IE fix: removes blue border */	
+  color: transparent; /* IE fix: removes blue border */
+} 	
+.intro h1 {
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.intro h4 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  opacity: 0.8;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.intro p {
+  max-width: 80%; 
+  font-size: 18 px;
+  color: #94a3b8;
+}
 
-
-/*menu*/
+/* menu */
 .menu {
   width: 100%;
   height: 25vh;
   display: flex;
   flex-direction: column;
 }
-
 .menu a {
   color: #ffffff;
   opacity: 0.8;
@@ -138,14 +130,12 @@ a.hero-circle {
   text-decoration: none;
   transition: 0.3s all;
 }
-
 .menu a:hover {
   padding-left: 0.5em;
   letter-spacing: 3px;
   font-weight: 900;
   color: #ffffff;
 }
-
 .menu.active::before {
     content: '';
     display: block;
@@ -159,8 +149,7 @@ a.hero-circle {
     transform: translateY(-50%); /* vertical alignment */
 }
 
-
-/*social*/
+/* Social */
 .social {
   display: flex;
   flex-direction: row;
@@ -168,7 +157,6 @@ a.hero-circle {
   height: 25vh;
   gap: 7px;
 }
-
 .social a .r {
   position: relative;
   text-align: center;
@@ -178,7 +166,6 @@ a.hero-circle {
   width: 140px;
   transition: 0.3s all ease-in-out; 
 }
-
 .social a img {
   filter: invert();
   padding: 0 0;
@@ -186,19 +173,15 @@ a.hero-circle {
   width: 30px;
   transition: all 0.3s ease-in-out;
 }
-
 .social a img:hover {
   transform: scale(1.1);
   opacity: 0.5;
 }
-
 .social a .i, .social a .g, .social a .l {
   width: 34px;
 }
 
-
-
-/*Content*/
+/* Content */
 .content {
   width: 50%;
   height: 100vh - 6vh; /* calc(100vh - 8vh) *
@@ -214,39 +197,31 @@ a.hero-circle {
   scroll-behavior: smooth;
   padding-right: 5rem;
 }
-
 .content .end {
   padding: 5em 1em 0;
   font-size: 16px;
   opacity: 0.85;
 }
-
 .content .end a {
   color: rgba(94, 234, 212, 0.85);
 }
-
 .content::-webkit-scrollbar {
-  /* Chrome, Safari, and Opera */
-  display: none;
+  display: none;   /* Chrome, Safari, and Opera */
 }
-
-/*about*/
 .content .about {
   padding-top: 5vh;
   width: 90%;
 }
-
 .content .about p {
   font-size: 18px;
   opacity: 0.6;
   color: #d4eeee;
 }
-
 .content .about p b {
   color: rgba(94, 234, 212, 1);
 }
 
-/* about */
+/* About */
 .about {
   padding: 5em 0 0em;
   display: flex;
@@ -275,19 +250,16 @@ a.hero-circle {
   height: auto;
   transition: all 0.35s ease;
 }
-
 .about-item:hover {
   background-color: rgba(255, 255, 255, 0.025);
   backdrop-filter: blur(20px);
 }
-
 .about-item h6 {
   opacity: 0.6;
   margin: 0;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
 .about-item-intro {
   align-self: flex-start;
   color: #fff;
@@ -295,13 +267,11 @@ a.hero-circle {
   padding-left: 10px;
   width: 30%;
 }
-
 .about-item-details {
   padding: 0px 20px;
   position: relative;
   width: 100%;
 }
-
 .about-item-details h4 {
   padding: 0;
   margin: 0 0 0.15em;
@@ -310,35 +280,24 @@ a.hero-circle {
   font-size: 18px;
   transition: color 0.3s ease;
 }
-
 .about-item:hover .lesson-details h4 {
   color: white;
   /* Or any other color you prefer */
 }
-
 .about-item-details h6 {
   opacity: 0.6;
 }
-
 .about-item-details p {
   opacity: 0.6;
   font-size: 14px;
 }
 
-/* education */
+/* Education */
 .education {
   padding: 5em 0 0em;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.school-path .title{
-  color: rgba(255, 255, 255, 0.8);
-  margin-top: 0;
-}
-.school-path .title2{
-  color: rgba(255, 255, 255, 0.8);
-  margin-top: 2em;
 }
 .school-item {
   margin: 1em 0;
@@ -354,19 +313,16 @@ a.hero-circle {
   height: auto;
   transition: all 0.35s ease;
 }
-
 .school-item:hover {
   background-color: rgba(255, 255, 255, 0.025);
   backdrop-filter: blur(20px);
 }
-
 .school-item h6 {
   opacity: 0.6;
   margin: 0;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
 .school-item-intro {
   align-self: flex-start;
   color: #fff;
@@ -374,13 +330,11 @@ a.hero-circle {
   padding-left: 10px;
   width: 30%;
 }
-
 .school-item-details {
   padding: 0px 20px;
   position: relative;
   width: 100%;
 }
-
 .school-item-details h4 {
   padding: 0;
   margin: 0 0 0.15em;
@@ -389,39 +343,35 @@ a.hero-circle {
   font-size: 18px;
   transition: color 0.3s ease;
 }
-
 .school-item:hover .lesson-details h4 {
   color: white;
   /* Or any other color you prefer */
 }
-
 .school-item-details h6 {
   opacity: 0.6;
 }
-
 .school-item-details p {
   opacity: 0.6;
   font-size: 14px;
 }
 
 
-
-/* experience */
-.journey {
+/* Experience */
+.experience {
   padding: 1em 0 0em;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.learning-path .title{
+.experience-path .title{
   color: rgba(255, 255, 255, 0.8);
   margin-top: 0;
 }
-.learning-path .title2{
+.experience-path .title2{
   color: rgba(255, 255, 255, 0.8);
   margin-top: 2em;
 }
-.lesson {
+.experience-item {
   margin: 1em 0;
   align-items: center;
   border-radius: 10px;
@@ -436,19 +386,19 @@ a.hero-circle {
   transition: all 0.35s ease;
 }
 
-.lesson:hover {
+.experience-item:hover {
   background-color: rgba(255, 255, 255, 0.025);
   backdrop-filter: blur(20px);
 }
 
-.lesson h6 {
+.experience-item h6 {
   opacity: 0.6;
   margin: 0;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-.lesson-intro {
+.experience-item-intro {
   align-self: flex-start;
   color: #fff;
   padding-top: 5px;
@@ -456,13 +406,13 @@ a.hero-circle {
   width: 30%;
 }
 
-.lesson-details {
+.experience-item-details {
   padding: 0px 20px;
   position: relative;
   width: 100%;
 }
 
-.lesson-details h4 {
+.experience-item-details h4 {
   padding: 0;
   margin: 0 0 0.15em;
   font-weight: 700;
@@ -471,16 +421,15 @@ a.hero-circle {
   transition: color 0.3s ease;
 }
 
-.lesson:hover .lesson-details h4 {
+.experience-item:hover .experience-item-details h4 {
   color: white;
-  /* Or any other color you prefer */
 }
 
-.lesson-details h6 {
+.experience-item-details h6 {
   opacity: 0.6;
 }
 
-.lesson-details p {
+.experience-item-details p {
   opacity: 0.6;
   font-size: 14px;
 }

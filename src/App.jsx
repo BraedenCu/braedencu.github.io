@@ -24,7 +24,7 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 4000); // Adjust time as needed
+    }, 4500); // Adjust time as needed
 
     document.addEventListener('mousemove', moveCircle);
 

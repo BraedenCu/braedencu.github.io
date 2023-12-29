@@ -59,7 +59,6 @@ body {
   backdrop-filter: blur(100px); /* For modern browsers */
   filter: blur(100px); /* Fallback blur for other browsers */
   opacity: 50%;
-
 }
 
 
@@ -693,4 +692,7 @@ a.hero-circle {
     width: 100% ;
   }
 
+  .circle {
+    opacity: 0%;
+  }
 }

@@ -45,10 +45,10 @@ export default function Hero() {
           <a href="https://github.com/BraedenCu" target="_blank" rel="noopener noreferrer">
             <img className="g" src={githubLogo} alt="github Link" />
           </a>
-          <a href="https://www.linkedin.com/in/braedencullen/" target="_blank" rel="noopener noreferrer">
+          <a href="www.linkedin.com/in/braeden-cullen-4835371a1" target="_blank" rel="noopener noreferrer">
             <img className="l" src={linkedinLogo} alt="Linkedin Link" />
           </a>
-          <a href="https://www.instagram.com/braedencullen/" target="_blank" rel="noopener noreferrer">
+          <a href="www.linkedin.com/in/braeden-cullen-4835371a1" target="_blank" rel="noopener noreferrer">
             <img className="i" src={instagramLogo} alt="Instagram Link" />
           </a>
         </div>

@@ -1,7 +1,7 @@
-import blog from './assets/blog.png';
-import eye from './assets/eye.png';
-import a from './assets/a.svg';
-import music from './assets/music.png';
+import spinertia from './assets/spinertia.png';
+import eye from './assets/nga.png';
+import steelbroncorobotics from './assets/SteelBroncoRobotics.png';
+import epoch from './assets/epoch.png';
 
 export default function Content() {
   return (
@@ -104,7 +104,29 @@ export default function Content() {
 
               <div className="experience-item">
                 <div className="icon-intro">
-                  <img src={music}/>
+                  <img src={eye}/>
+                </div>
+                <div className="project-details">
+                  <h4>Geospatial Intelligence</h4>
+                  <h6>Data Science</h6>
+                  <p>
+                    As a member of a team of post-graduate researchers at Yale University, I analyzed the impact of Russian intervention in Ukrainian territories using Python and R. We utilized Python libraries (Pandas, NumPy, Matplotlib, Seaborn) and R packages (ggplot2, dplyr, tidyr) for data manipulation, visualization, and statistical analysis. Our methods included regression, time series analysis, and machine learning for pattern identification, complemented by geospatial analysis with tools like GeoPandas. We emphasized data validation, cleaning, and used Jupyter Notebooks and R Markdown for an integrated, reproducible research environment, providing comprehensive insights into the socio-economic and political effects of the intervention.
+                  </p>
+                  <div className='link'>
+                    <a href='https://github.com/braedencu/'>Live↗</a>
+                    <a href='https://github.com/braedencu/'>Github↗</a>
+                  </div>
+                  <div className="skills-container">
+                    <a className="skill-button">PYTHON</a>
+                    <a className="skill-button">BIG DATA</a>
+                    <a className="skill-button">AI/ML</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="experience-item">
+                <div className="icon-intro">
+                  <img src={epoch}/>
                 </div>
                 <div className="project-details">
                   <h4>EpochML</h4>
@@ -130,29 +152,7 @@ export default function Content() {
 
               <div className="experience-item">
                 <div className="icon-intro">
-                  <img src={eye}/>
-                </div>
-                <div className="project-details">
-                  <h4>Geospatial Intelligence</h4>
-                  <h6>Data Science</h6>
-                  <p>
-                    As a member of a team of post-graduate researchers at Yale University, I analyzed the impact of Russian intervention in Ukrainian territories using Python and R. We utilized Python libraries (Pandas, NumPy, Matplotlib, Seaborn) and R packages (ggplot2, dplyr, tidyr) for data manipulation, visualization, and statistical analysis. Our methods included regression, time series analysis, and machine learning for pattern identification, complemented by geospatial analysis with tools like GeoPandas. We emphasized data validation, cleaning, and used Jupyter Notebooks and R Markdown for an integrated, reproducible research environment, providing comprehensive insights into the socio-economic and political effects of the intervention.
-                  </p>
-                  <div className='link'>
-                    <a href='https://github.com/braedencu/'>Live↗</a>
-                    <a href='https://github.com/braedencu/'>Github↗</a>
-                  </div>
-                  <div className="skills-container">
-                    <a className="skill-button">PYTHON</a>
-                    <a className="skill-button">BIG DATA</a>
-                    <a className="skill-button">AI/ML</a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="experience-item">
-                <div className="icon-intro">
-                  <img src={a}/>
+                  <img src={spinertia}/>
                 </div>
                 <div className="project-details">
                   <h4>Spinertia</h4>
@@ -178,7 +178,7 @@ export default function Content() {
 
               <div className="experience-item">
                 <div className="icon-intro">
-                  <img src={music}/>
+                  <img src={steelbroncorobotics}/>
                 </div>
                 <div className="project-details">
                   <h4>Steel Bronco Robotics</h4>

@@ -163,7 +163,7 @@ export default function Content() {
                     Current prospects are on mass-production and continuing to raise capital.
                   </p>
                   <div className='link'>
-                    <a href='https://github.com/braedencu/'>Live↗</a>
+                    <a href='https://www.spinertia.org/'>Live↗</a>
                     <a href='https://github.com/braedencu/'>Github↗</a>
                   </div>
                   <div className="skills-container">

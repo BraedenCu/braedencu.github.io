@@ -123,33 +123,7 @@ export default function Content() {
                   </div>
                 </div>
               </div>
-
-              <div className="experience-item">
-                <div className="icon-intro">
-                  <img src={epoch}/>
-                </div>
-                <div className="project-details">
-                  <h4>EpochML</h4>
-                  <h6>Chief Technology Officer</h6>
-                  <p> 
-                      I oversaw our technological vision and overall reliability of the HPC cluster at both the hardware and software levels.
-                      Managed a team of 20 students to develop a CUDA-enabled HPC cluster using the SLURM job scheduler.
-                      Championed the implementation of zero-trust security solutions, ensuring robust protection for the Epoch cluster and its users while facilitating secure access to computational resources.
-                  </p>
-                  <div className='link'>
-                    <a href='https://epochml.org/'>Live↗</a>
-                    <a href='https://github.com/IMSAai'>Github↗</a>
-                  </div>
-                  <div className="skills-container">
-                    <a className="skill-button">HTML/CSS</a>
-                    <a className="skill-button">JS</a>
-                    <a className="skill-button">ANSIBLE</a>
-                    <a className="skill-button">CUDA</a>
-                    <a className="skill-button">SLURM</a>
-                  </div>
-                </div>
-              </div>
-
+              
               <div className="experience-item">
                 <div className="icon-intro">
                   <img src={spinertia}/>
@@ -172,6 +146,32 @@ export default function Content() {
                     <a className="skill-button">JS</a>
                     <a className="skill-button">REACT</a>
                     <a className="skill-button">PYTHON</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="experience-item">
+                <div className="icon-intro">
+                  <img src={epoch}/>
+                </div>
+                <div className="project-details">
+                  <h4>EpochML</h4>
+                  <h6>Chief Technology Officer</h6>
+                  <p> 
+                      I oversaw our technological vision and overall reliability of the HPC cluster at both the hardware and software levels.
+                      Managed a team of 20 students to develop a CUDA-enabled HPC cluster using the SLURM job scheduler.
+                      Championed the implementation of zero-trust security solutions, ensuring robust protection for the Epoch cluster and its users while facilitating secure access to computational resources.
+                  </p>
+                  <div className='link'>
+                    <a href='https://epochml.org/'>Live↗</a>
+                    <a href='https://github.com/IMSAai'>Github↗</a>
+                  </div>
+                  <div className="skills-container">
+                    <a className="skill-button">HTML/CSS</a>
+                    <a className="skill-button">JS</a>
+                    <a className="skill-button">ANSIBLE</a>
+                    <a className="skill-button">CUDA</a>
+                    <a className="skill-button">SLURM</a>
                   </div>
                 </div>
               </div>

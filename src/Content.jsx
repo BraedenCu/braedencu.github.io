@@ -113,7 +113,7 @@ export default function Content() {
                     As a member of a team of post-graduate researchers at Yale University, I analyzed the impact of Russian intervention in Ukrainian territories using Python and R. We utilized Python libraries (Pandas, NumPy, Matplotlib, Seaborn) and R packages (ggplot2, dplyr, tidyr) for data manipulation, visualization, and statistical analysis. Our methods included regression, time series analysis, and machine learning for pattern identification, complemented by geospatial analysis with tools like GeoPandas. We emphasized data validation, cleaning, and used Jupyter Notebooks and R Markdown for an integrated, reproducible research environment, providing comprehensive insights into the socio-economic and political effects of the intervention.
                   </p>
                   <div className='link'>
-                    <a href='https://github.com/braedencu/'>Live↗</a>
+                    <a href='https://www.tearline.mil/'>Live↗</a>
                     <a href='https://github.com/braedencu/'>Github↗</a>
                   </div>
                   <div className="skills-container">

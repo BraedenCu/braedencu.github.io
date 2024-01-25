@@ -13,7 +13,7 @@ export default function Content() {
            <p className='title'>Education</p>
             <div className="school-item">
               <div className="school-item-intro">
-                <h6>2023 — June 2027</h6>
+                <h6>2023 — 2027</h6>
               </div>
               <div className="school-item-details">
                 <h4>Yale University</h4>

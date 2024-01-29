@@ -134,7 +134,7 @@ export default function Content() {
                   <p>
                     Cofounded a venture-backed Yale-based biotech wearable start-up using artificial intelligence to create alternative modeling techniques for 
                     spinal deviation using a sensor array. Provisionally patented on the proprietary AI model along with the design of the device. 
-                    Current prospects are on mass-production and continuing to raise capital.
+                    SHI Venture Development Program Fall 2024 Cohort. TSAI City Launchpad Startup Accelerator Fall 2024 Cohort.
                   </p>
                   <div className='link'>
                     <a href='https://www.spinertia.org/'>Live↗</a>

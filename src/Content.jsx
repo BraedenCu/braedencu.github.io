@@ -18,7 +18,7 @@ export default function Content() {
               <div className="school-item-details">
                 <h4>Yale University</h4>
                 <h6>B.S. Computer Science and Economics, B.A. Statistics and Data Science</h6>
-                <p>Activities: Yale Entrepreneurial Society, Yale Venture Capital Fellows Venture Partner, Yale Undergraduate Diversified Investments, Yale Foreign Policy Initiative, Y/CS.</p>
+                <p>Activities: Yale Entrepreneurial Society, Yale Alternative Investments, Yale Foreign Policy Initiative, Y/CS.</p>
               </div>
             </div>
           </div>

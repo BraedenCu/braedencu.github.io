@@ -46,6 +46,25 @@ export default function Content() {
 
             <div className="experience-item">
               <div className="experience-item-intro">
+                <h6>2023 — Present</h6>
+              </div>
+              <div className="experience-item-details">
+                <h4>Glasswing Ventures</h4>
+                <h6>Venture Associate</h6>
+                <p>
+                  Sourced early-stage startups leveraging AI technologies within enterprise and security markets, aligning with Glasswing&apos;s thesis-driven approach. Sourced over 20 deals in the GenAI & Big Data space for the firm&apos;s most recent round. Enhanced portfolio diversity with trailblazers like Tracecat and Reken, reinforcing our leadership in AI-driven market shifts.
+                </p>
+                <div className="skills-container">
+                  <a className="skill-button">MODELLING</a>
+                  <a className="skill-button">SOURCING</a>
+                  <a className="skill-button">MARKET ANALYSIS</a>
+                  <a className="skill-button">STRATEGY</a>
+                </div>
+              </div>
+            </div>
+            
+            <div className="experience-item">
+              <div className="experience-item-intro">
                 <h6>2022 — 2023</h6>
               </div>
               <div className="experience-item-details">

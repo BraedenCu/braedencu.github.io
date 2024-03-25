@@ -29,7 +29,7 @@ export default function Content() {
            <p className='title'>Experience</p>
             <div className="experience-item">
               <div className="experience-item-intro">
-                <h6>2023 — Present</h6>
+                <h6>2023 — 2024</h6>
               </div>
               <div className="experience-item-details">
                 <h4>Yale Foreign Policy Institute, Department of Defence</h4>

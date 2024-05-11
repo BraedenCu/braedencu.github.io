@@ -17,16 +17,17 @@ export default function Content() {
               </div>
               <div className="school-item-details">
                 <h4>Yale University</h4>
-                <h6>Computer Science & Economics, Statistics & Data Science</h6>
-                <p>Activities: Yale Entrepreneurial Society, Yale Alternative Investments, Yale Foreign Policy Initiative, Y/CS.</p>
+                <h6>Computer Science & Applied Mathematics</h6>
+                <p>Activities: Yale Foreign Policy Initiative, Y/CS, Yale Entrepreneurial Society, Yale Alternative Investments.</p>
               </div>
             </div>
           </div>
 
-        {/* Education Section */}
+        {/* Experience Section */}
         <div id="experience" className="experience">
           <div className="experience-path">
-           <p className='title'>Experience</p>
+          <p className='title'>Experience</p>
+
             <div className="experience-item">
               <div className="experience-item-intro">
                 <h6>2023 — 2024</h6>

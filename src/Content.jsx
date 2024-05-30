@@ -18,7 +18,7 @@ export default function Content() {
               <div className="school-item-details">
                 <h4>Yale University</h4>
                 <h6>Computer Science & Applied Mathematics</h6>
-                <p>Activities: Yale Foreign Policy Initiative, Y/CS, Yale Entrepreneurial Society, Yale Alternative Investments.</p>
+                <p>Activities: Sigma Chi Fraternity (Philanthropy Chair), Yale Entrepreneurial Society Board of Directors, Y/CS, Yale Foreign Policy Institute, Yale AI Policy Initiative.</p>
               </div>
             </div>
           </div>
@@ -30,6 +30,26 @@ export default function Content() {
 
             <div className="experience-item">
               <div className="experience-item-intro">
+                <h6>2024</h6>
+              </div>
+              <div className="experience-item-details">
+                <h4>Elevance Health</h4>
+                <h6>MLOps Intern</h6>
+                <p>
+                  Developed Snowflake analytical tools using Python and SQL for 14+ million Medicaid beneficiaries nationwide. Designed and implemented robust ETL (Extract, Transform, Load) pipelines to streamline data ingestion, transformation, and storage processes, ensuring data integrity and accessibility for complex queries and analysis. Leveraged Snowflake’s data sharing capabilities to enable secure, real-time data sharing across multiple organizations, enhancing collaboration and data-driven decision-making.
+                </p>
+                <div className="skills-container">
+                  <a className="skill-button">SNOWFLAKE</a>
+                  <a className="skill-button">TABLEAU</a>
+                  <a className="skill-button">TENSORFLOW</a>
+                  <a className="skill-button">SQL</a>
+                  <a className="skill-button">PYTHON</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="experience-item">
+              <div className="experience-item-intro">
                 <h6>2023 — 2024</h6>
               </div>
               <div className="experience-item-details">
@@ -38,9 +58,28 @@ export default function Content() {
                 <p>Apply advanced data analysis to identify foreign intervention in regions of high interest to United States national security. Leveraged geospatial analysis techniques with a heavy emphasis on ML-based solutions. Working closely with the Department of Defense and the National Geospatial-Intelligence Agency to investigate Russian activity in Africa.</p>
                 <div className="skills-container">
                   <a className="skill-button">R</a>
-                  <a className="skill-button">PYTHON</a>
-                  <a className="skill-button">AI/ML</a>
-                  <a className="skill-button">BIG DATA</a>
+                  <a className="skill-button">GEE</a>
+                  <a className="skill-button">LANDSAT</a>
+                  <a className="skill-button">SQL</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="experience-item">
+              <div className="experience-item-intro">
+                <h6>2023 — 2024</h6>
+              </div>
+              <div className="experience-item-details">
+                <h4>Glasswing Ventures</h4>
+                <h6>Venture Associate</h6>
+                <p>
+                  Sourced early-stage startups leveraging AI technologies within enterprise and security markets, aligning with Glasswing&apos;s thesis-driven approach. Sourced over 20 deals in the GenAI & Big Data space for the firm&apos;s most recent round. Enhanced portfolio diversity with trailblazers like Tracecat and Reken, reinforcing our leadership in AI-driven market shifts.
+                </p>
+                <div className="skills-container">
+                  <a className="skill-button">MODELLING</a>
+                  <a className="skill-button">SOURCING</a>
+                  <a className="skill-button">MARKET ANALYSIS</a>
+                  <a className="skill-button">STRATEGY</a>
                 </div>
               </div>
             </div>
@@ -72,28 +111,10 @@ export default function Content() {
                 <h6>Artificial Intelligence Research Intern</h6>
                 <p>Filtered and processed global climate radar data to highlight global vulnerability by region. Developed a fully featured machine learning-based pipeline to address the climate data crisis by improving the usability of climate radar data for statistical analysis.  Utilized ML-based downscaling techniques to produce radar data improved by a 16x scale magnification factor.</p>
                 <div className="skills-container">
-                  <a className="skill-button">AI/ML</a>
                   <a className="skill-button">PYTHON</a>
-                  <a className="skill-button">BIG DATA</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="experience-item">
-              <div className="experience-item-intro">
-                <h6>2023 — 2024</h6>
-              </div>
-              <div className="experience-item-details">
-                <h4>Glasswing Ventures</h4>
-                <h6>Venture Associate</h6>
-                <p>
-                  Sourced early-stage startups leveraging AI technologies within enterprise and security markets, aligning with Glasswing&apos;s thesis-driven approach. Sourced over 20 deals in the GenAI & Big Data space for the firm&apos;s most recent round. Enhanced portfolio diversity with trailblazers like Tracecat and Reken, reinforcing our leadership in AI-driven market shifts.
-                </p>
-                <div className="skills-container">
-                  <a className="skill-button">MODELLING</a>
-                  <a className="skill-button">SOURCING</a>
-                  <a className="skill-button">MARKET ANALYSIS</a>
-                  <a className="skill-button">STRATEGY</a>
+                  <a className="skill-button">TENSORFLOW</a>
+                  <a className="skill-button">KERAS</a>
+                  <a className="skill-button">HADOOP</a>
                 </div>
               </div>
             </div>

@@ -30,7 +30,7 @@ export default function Content() {
 
             <div className="experience-item">
               <div className="experience-item-intro">
-                <h6>2024</h6>
+                <h6>2024 - 2024</h6>
               </div>
               <div className="experience-item-details">
                 <h4>Elevance Health</h4>

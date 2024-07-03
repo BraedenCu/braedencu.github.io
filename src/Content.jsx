@@ -34,7 +34,7 @@ export default function Content() {
               </div>
               <div className="experience-item-details">
                 <h4>Elevance Health</h4>
-                <h6>MLOps Intern</h6>
+                <h6>DataOps Intern</h6>
                 <p>
                   Developed Snowflake analytical tools using Python and SQL for 14+ million Medicaid beneficiaries nationwide. Designed and implemented robust ETL (Extract, Transform, Load) pipelines to streamline data ingestion, transformation, and storage processes, ensuring data integrity and accessibility for complex queries and analysis. Leveraged Snowflake’s data sharing capabilities to enable secure, real-time data sharing across multiple organizations, enhancing collaboration and data-driven decision-making.
                 </p>
@@ -53,8 +53,8 @@ export default function Content() {
                 <h6>2023 — 2024</h6>
               </div>
               <div className="experience-item-details">
-                <h4>Yale Foreign Policy Institute, Department of Defence</h4>
-                <h6>Big Data Architect</h6>
+                <h4>Yale Foreign Policy Institute, National Geospatial-Intelligence Agency</h4>
+                <h6>Data Engineer</h6>
                 <p>Apply advanced data analysis to identify foreign intervention in regions of high interest to United States national security. Leveraged geospatial analysis techniques with a heavy emphasis on ML-based solutions. Working closely with the Department of Defense and the National Geospatial-Intelligence Agency to investigate Russian activity in Africa.</p>
                 <div className="skills-container">
                   <a className="skill-button">R</a>
@@ -90,7 +90,7 @@ export default function Content() {
               </div>
               <div className="experience-item-details">
                 <h4>University of Chicago, Globus Labs </h4>
-                <h6>Software Engineer</h6>
+                <h6>Software Engineering Intern</h6>
                 <p>Developed Moment, a site for connecting artificial intelligence researchers in academia to passionate collaborators to improve academic turnover through crowdsourced collaboration. Worked on DLHub and Foundry, python packages leveraged to increase the reusability of cutting-edge machine learning models from academic papers immediately upon publication.  These projects contribute to the democratization of ML research, guided by an overarching desire to keep the powers of ML out of the tight grasp of a select few powerful entities.</p>
                 <div className="skills-container">
                   <a className="skill-button">UI/UX</a>
@@ -145,28 +145,6 @@ export default function Content() {
 
               <div className="experience-item">
                 <div className="icon-intro">
-                  <img src={eye}/>
-                </div>
-                <div className="project-details">
-                  <h4>Geospatial Intelligence</h4>
-                  <h6>Data Science</h6>
-                  <p>
-                    As a member of a team of post-graduate researchers at Yale University, I analyzed the impact of Russian intervention in Ukrainian territories using Python and R. We utilized Python libraries (Pandas, NumPy, Matplotlib, Seaborn) and R packages (ggplot2, dplyr, tidyr) for data manipulation, visualization, and statistical analysis. Our methods included regression, time series analysis, and machine learning for pattern identification, complemented by geospatial analysis with tools like GeoPandas. We emphasized data validation, cleaning, and used Jupyter Notebooks and R Markdown for an integrated, reproducible research environment, providing comprehensive insights into the socio-economic and political effects of the intervention.
-                  </p>
-                  <div className='link'>
-                    <a href='https://www.tearline.mil/'>Live↗</a>
-                    <a href='https://github.com/braedencu/'>Github↗</a>
-                  </div>
-                  <div className="skills-container">
-                    <a className="skill-button">PYTHON</a>
-                    <a className="skill-button">BIG DATA</a>
-                    <a className="skill-button">AI/ML</a>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="experience-item">
-                <div className="icon-intro">
                   <img src={spinertia}/>
                 </div>
                 <div className="project-details">
@@ -190,14 +168,37 @@ export default function Content() {
                   </div>
                 </div>
               </div>
+
+              <div className="experience-item">
+                <div className="icon-intro">
+                  <img src={eye}/>
+                </div>
+                <div className="project-details">
+                  <h4>Geospatial Intelligence</h4>
+                  <h6>Data Science</h6>
+                  <p>
+                    As a member of a team of post-graduate researchers at Yale University, I analyzed the impact of Russian intervention in Ukrainian territories using Python and R. We utilized Python libraries (Pandas, NumPy, Matplotlib, Seaborn) and R packages (ggplot2, dplyr, tidyr) for data manipulation, visualization, and statistical analysis. Our methods included regression, time series analysis, and machine learning for pattern identification, complemented by geospatial analysis with tools like GeoPandas. We emphasized data validation, cleaning, and used Jupyter Notebooks and R Markdown for an integrated, reproducible research environment, providing comprehensive insights into the socio-economic and political effects of the intervention.
+                  </p>
+                  <div className='link'>
+                    <a href='https://www.tearline.mil/'>Live↗</a>
+                    <a href='https://github.com/braedencu/'>Github↗</a>
+                  </div>
+                  <div className="skills-container">
+                    <a className="skill-button">PYTHON</a>
+                    <a className="skill-button">BIG DATA</a>
+                    <a className="skill-button">AI/ML</a>
+                  </div>
+                </div>
+              </div>
+              
               
               <div className="experience-item">
                 <div className="icon-intro">
                   <img src={epoch}/>
                 </div>
                 <div className="project-details">
-                  <h4>EpochML</h4>
-                  <h6>Chief Technology Officer</h6>
+                  <h4>Yale University SEAS</h4>
+                  <h6>Research Assistan</h6>
                   <p> 
                       I oversaw our technological vision and overall reliability of the HPC cluster at both the hardware and software levels.
                       Managed a team of 20 students to develop a CUDA-enabled HPC cluster using the SLURM job scheduler.

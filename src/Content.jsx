@@ -53,8 +53,8 @@ export default function Content() {
                 <h6>2023 — 2024</h6>
               </div>
               <div className="experience-item-details">
-                <h4>Yale Foreign Policy Institute, National Geospatial-Intelligence Agency</h4>
-                <h6>Data Engineer</h6>
+                <h4>National Geospatial-Intelligence Agency, YFPI</h4>
+                <h6>Software Engineer</h6>
                 <p>Apply advanced data analysis to identify foreign intervention in regions of high interest to United States national security. Leveraged geospatial analysis techniques with a heavy emphasis on ML-based solutions. Working closely with the Department of Defense and the National Geospatial-Intelligence Agency to investigate Russian activity in Africa.</p>
                 <div className="skills-container">
                   <a className="skill-button">R</a>
@@ -175,7 +175,7 @@ export default function Content() {
                 </div>
                 <div className="project-details">
                   <h4>Geospatial Intelligence</h4>
-                  <h6>Data Science</h6>
+                  <h6>Data Scientist</h6>
                   <p>
                     As a member of a team of post-graduate researchers at Yale University, I analyzed the impact of Russian intervention in Ukrainian territories using Python and R. We utilized Python libraries (Pandas, NumPy, Matplotlib, Seaborn) and R packages (ggplot2, dplyr, tidyr) for data manipulation, visualization, and statistical analysis. Our methods included regression, time series analysis, and machine learning for pattern identification, complemented by geospatial analysis with tools like GeoPandas. We emphasized data validation, cleaning, and used Jupyter Notebooks and R Markdown for an integrated, reproducible research environment, providing comprehensive insights into the socio-economic and political effects of the intervention.
                   </p>
@@ -198,7 +198,7 @@ export default function Content() {
                 </div>
                 <div className="project-details">
                   <h4>Yale University SEAS</h4>
-                  <h6>Research Assistan</h6>
+                  <h6>Research Assistant</h6>
                   <p> 
                       I oversaw our technological vision and overall reliability of the HPC cluster at both the hardware and software levels.
                       Managed a team of 20 students to develop a CUDA-enabled HPC cluster using the SLURM job scheduler.

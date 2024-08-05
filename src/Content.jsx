@@ -18,7 +18,7 @@ export default function Content() {
               <div className="school-item-details">
                 <h4>Yale University</h4>
                 <h6>Computer Science & Applied Mathematics</h6>
-                <p>Activities: Sigma Chi Fraternity (Philanthropy Chair), Yale Entrepreneurial Society Board of Directors, Y/CS, Yale Foreign Policy Institute, Yale AI Policy Initiative.</p>
+                <p>Activities & Societies: Sigma Chi Fraternity (Philanthropy Chair), Yale Alternative Investments (QR), Yale Daily News (Staff Writer), Yale Foreign Policy Institute (Geopolitical Analysis), Yale Entrepreneurial Society (Executive Board), Y/CS (Developer).</p>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function Content() {
               </div>
               <div className="experience-item-details">
                 <h4>Elevance Health</h4>
-                <h6>DataOps Intern</h6>
+                <h6>Data Scientist Intern</h6>
                 <p>
                   Developed Snowflake analytical tools using Python and SQL for 14+ million Medicaid beneficiaries nationwide. Designed and implemented robust ETL (Extract, Transform, Load) pipelines to streamline data ingestion, transformation, and storage processes, ensuring data integrity and accessibility for complex queries and analysis. Leveraged Snowflake’s data sharing capabilities to enable secure, real-time data sharing across multiple organizations, enhancing collaboration and data-driven decision-making.
                 </p>

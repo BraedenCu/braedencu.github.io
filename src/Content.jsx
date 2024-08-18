@@ -1,7 +1,7 @@
 import spinertia from './assets/spinertia.png';
 import eye from './assets/nga.png';
 import steelbroncorobotics from './assets/SteelBroncoRobotics.png';
-import epoch from './assets/epoch.png';
+import epoch from './assets/lux.png';
 
 export default function Content() {
   return (
@@ -36,7 +36,7 @@ export default function Content() {
                 <h4>Elevance Health</h4>
                 <h6>Data Scientist Intern</h6>
                 <p>
-                  Developed Snowflake analytical tools using Python and SQL for 14+ million Medicaid beneficiaries nationwide. Designed and implemented robust ETL (Extract, Transform, Load) pipelines to streamline data ingestion, transformation, and storage processes, ensuring data integrity and accessibility for complex queries and analysis. Leveraged Snowflake’s data sharing capabilities to enable secure, real-time data sharing across multiple organizations, enhancing collaboration and data-driven decision-making.
+                  Developed Snowflake analytical tools using Python and SQL for 14+ million Medicaid beneficiaries nationwide. Leveraged Snowflake’s data sharing capabilities to enable secure, real-time data sharing across multiple organizations, enhancing collaboration and data-driven decision-making. Created a suite of analysis tools released as a desktop application that cut time on healthcare pricing validations by 250%. Designed and implemented robust ETL pipelines to streamline data ingestion, transformation, and storage processes of sensitive healthcare data while maintaining HIPAA compliance. Utilized SQL queries to display national Medicaid records. Presented deliverables to upper management and stakeholders, providing insights into the Medicaid population and healthcare pricing trends.
                 </p>
                 <div className="skills-container">
                   <a className="skill-button">SNOWFLAKE</a>
@@ -53,9 +53,9 @@ export default function Content() {
                 <h6>2023 — 2024</h6>
               </div>
               <div className="experience-item-details">
-                <h4>National Geospatial-Intelligence Agency, YFPI</h4>
+                <h4>National Geospatial-Intelligence Agency, Yale Foreign Policy Institute</h4>
                 <h6>Software Engineer</h6>
-                <p>Apply advanced data analysis to identify foreign intervention in regions of high interest to United States national security. Leveraged geospatial analysis techniques with a heavy emphasis on ML-based solutions. Working closely with the Department of Defense and the National Geospatial-Intelligence Agency to investigate Russian activity in Africa.</p>
+                <p>Apply advanced data analysis to identify foreign intervention in regions of high interest to United States national security. Leveraged geospatial analysis techniques with a heavy emphasis on ML-based solutions. Working closely with the Department of Defense and the National Geospatial-Intelligence Agency to investigate Russian activity in Africa. Pioneered the usage of advanced data analytics and geospatial analysis to scrutinize foreign intervention in Northern Africa. Formulated statistical analysis packages in R to locate the sites of Russian-owned oil rig developments in North Africa. Identified and exposed 10 instances of Wagner group (a Russian proxy group) exploitation in Libya using satellite imagery processing.</p>
                 <div className="skills-container">
                   <a className="skill-button">R</a>
                   <a className="skill-button">GEE</a>
@@ -89,9 +89,9 @@ export default function Content() {
                 <h6>2022 — 2023</h6>
               </div>
               <div className="experience-item-details">
-                <h4>University of Chicago, Globus Labs </h4>
+                <h4>University of Chicago, Scientific & High Performance Computing Group </h4>
                 <h6>Software Engineering Intern</h6>
-                <p>Developed Moment, a site for connecting artificial intelligence researchers in academia to passionate collaborators to improve academic turnover through crowdsourced collaboration. Worked on DLHub and Foundry, python packages leveraged to increase the reusability of cutting-edge machine learning models from academic papers immediately upon publication.  These projects contribute to the democratization of ML research, guided by an overarching desire to keep the powers of ML out of the tight grasp of a select few powerful entities.</p>
+                <p>Developed Accelerate (formerly Moment), a site for connecting artificial intelligence researchers in academia to passionate collaborators to improve academic turnover through crowd-sourced collaboration, funded by the National Science Foundation. Created Foundry-ML, a Python package and API used by over 20,000 monthly users, simplifying access to ML-ready datasets in materials science and chemistry. Developed API features for easy data loading in local or cloud environments and facilitated dataset publishing for community use. The package enhances the repeatability of cutting-edge machine learning models from academic papers and includes features for seamless deployment of published ML models.</p>
                 <div className="skills-container">
                   <a className="skill-button">UI/UX</a>
                   <a className="skill-button">HTML/CSS</a>
@@ -107,9 +107,9 @@ export default function Content() {
                 <h6>2022 — 2022</h6>
               </div>
               <div className="experience-item-details">
-                <h4>Argonne National Laboratory</h4>
+                <h4>Argonne National Laboratory, Globus Labs</h4>
                 <h6>Artificial Intelligence Research Intern</h6>
-                <p>Filtered and processed global climate radar data to highlight global vulnerability by region. Developed a fully featured machine learning-based pipeline to address the climate data crisis by improving the usability of climate radar data for statistical analysis.  Utilized ML-based downscaling techniques to produce radar data improved by a 16x scale magnification factor.</p>
+                <p>Spearheaded the processing of global climate radar data to identify regional vulnerabilities, developing a stacked SRCNN-based model that enhanced climate radar data usability for analysis. Developed and implemented a convolutional neural network (CNN) to classify and segment high-resolution satellite images, reducing manual annotation time by 50%. Implemented ML downscaling techniques, achieving a 16x improvement in radar data resolution.</p>
                 <div className="skills-container">
                   <a className="skill-button">PYTHON</a>
                   <a className="skill-button">TENSORFLOW</a>
@@ -126,7 +126,7 @@ export default function Content() {
               <div className="experience-item-details">
                 <h4>CVM Lab@IIT & UMich Ann Arbor</h4>
                 <h6>Computational Neuroscience Research Intern</h6>
-                <p>Developed computational analysis techniques to probe brain scans for patterns between divergent scans. Created a fully-featured data generation pipeline to convert brain scans into more manageable formats. Presented findings nationally. </p>
+                <p>Developed computational techniques to analyze brain scans, identifying patterns across divergent datasets. Led the collection and processing of mouse brain scans at a research facility. Engineered a comprehensive data pipeline to convert high-resolution scans into manageable formats for deeper analysis. Presented research findings at national conferences. </p>
                 <div className="skills-container">
                   <a className="skill-button">PYTHON</a>
                   <a className="skill-button">C++</a>
@@ -197,23 +197,21 @@ export default function Content() {
                   <img src={epoch}/>
                 </div>
                 <div className="project-details">
-                  <h4>Yale University SEAS</h4>
+                  <h4>Yale University School of Engineering & Applied Science</h4>
                   <h6>Research Assistant</h6>
                   <p> 
-                      I oversaw our technological vision and overall reliability of the HPC cluster at both the hardware and software levels.
-                      Managed a team of 20 students to develop a CUDA-enabled HPC cluster using the SLURM job scheduler.
-                      Championed the implementation of zero-trust security solutions, ensuring robust protection for the Epoch cluster and its users while facilitating secure access to computational resources.
+                    Piloted the development of a CUDA-enabled high-performance computing cluster, integrating provisioning automation to streamline resource allocation and deployment using the SLURM job scheduler. Advised by Prof. Brian Scassellati, working on developing SEAN3.2 (Social Environment for Autonomous Navigation), a high fidelity, extensible, and open source simulation platform designed for the evaluation of social navigation algorithms within ROS.
                   </p>
                   <div className='link'>
-                    <a href='https://epochml.org/'>Live↗</a>
+                    <a href='https://scazlab.yale.edu/'>Live↗</a>
                     <a href='https://github.com/IMSAai'>Github↗</a>
                   </div>
                   <div className="skills-container">
                     <a className="skill-button">HTML/CSS</a>
-                    <a className="skill-button">JS</a>
-                    <a className="skill-button">ANSIBLE</a>
+                    <a className="skill-button">ROS</a>
+                    <a className="skill-button">C/C++</a>
                     <a className="skill-button">CUDA</a>
-                    <a className="skill-button">SLURM</a>
+                    <a className="skill-button">AWS</a>
                   </div>
                 </div>
               </div>

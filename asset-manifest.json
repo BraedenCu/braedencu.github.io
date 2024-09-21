@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.fba46231.css",
-    "main.js": "/static/js/main.cf15af7d.js",
+    "main.js": "/static/js/main.60bb98c0.js",
     "static/media/lux.png": "/static/media/lux.2cd42254b5e091cd0c2d.png",
+    "static/media/hdsht.png": "/static/media/hdsht.4d4e72e5db9d743092e1.png",
     "static/media/spinertia.png": "/static/media/spinertia.293f01fa91beff617757.png",
     "static/media/SteelBroncoRobotics.png": "/static/media/SteelBroncoRobotics.d8b5936706ec4f63bad0.png",
-    "static/media/headshot.png": "/static/media/headshot.e56d853e1686aabd9207.png",
     "static/media/nga.png": "/static/media/nga.f9549657b7b8b4e9d465.png",
     "static/media/github.png": "/static/media/github.68bbeafeade821944d14.png",
     "index.html": "/index.html",
     "main.fba46231.css.map": "/static/css/main.fba46231.css.map",
-    "main.cf15af7d.js.map": "/static/js/main.cf15af7d.js.map"
+    "main.60bb98c0.js.map": "/static/js/main.60bb98c0.js.map"
   },
   "entrypoints": [
     "static/css/main.fba46231.css",
-    "static/js/main.cf15af7d.js"
+    "static/js/main.60bb98c0.js"
   ]
 }

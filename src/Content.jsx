@@ -18,7 +18,7 @@ export default function Content() {
               <div className="school-item-details">
                 <h4>Yale University</h4>
                 <h6>Computer Science & Electrical Engineering, Statistics & Data Science</h6>
-                <p>Activities & Societies: Sigma Chi Fraternity (Philanthropy Chair), Yale Alternative Investments (QR), Yale Daily News (Staff Writer), Yale Foreign Policy Institute (Geopolitical Analysis), Yale Entrepreneurial Society (Executive Board), Y/CS (Developer).</p>
+                <p>Activities & Societies: Yale Undergraduate Aerospace Association, Y/CS, Yale Daily News, Yale Foreign Policy Institute, Yale Entrepreneurial Society, Sigma Chi Fraternity (Philanthropy Chair)</p>
               </div>
             </div>
           </div>
@@ -27,6 +27,26 @@ export default function Content() {
         <div id="experience" className="experience">
           <div className="experience-path">
           <p className='title'>Experience</p>
+
+          <div className="experience-item">
+              <div className="experience-item-intro">
+                <h6>2024 - 2025</h6>
+              </div>
+              <div className="experience-item-details">
+                <h4>Anagram</h4>
+                <h6>Quantitative Developer Intern</h6>
+                <p>
+                  Contributed to the in-house development of Glider, a cross-chain, multi-asset strategy creation and trading platform designed to allow users to build self-hedging ETFs based on real-time market conditions. Engineered low-latency, high-efficiency systems in C++ for executing automated arbitrage across blockchains. Enhanced platform capabilities by developing wallet tracking, PnL calculation, and backtesting functionalities, with a strong emphasis on creating and transforming data pipelines to support complex financial operations.
+                </p>
+                <div className="skills-container">
+                  <a className="skill-button">C++</a>
+                  <a className="skill-button">DOCKER</a>
+                  <a className="skill-button">LINUX</a>
+                  <a className="skill-button">HIGH PERFORMANCE COMPUTING</a>
+                  <a className="skill-button">PYTHON</a>
+                </div>
+              </div>
+            </div>
 
             <div className="experience-item">
               <div className="experience-item-intro">
@@ -64,26 +84,7 @@ export default function Content() {
                 </div>
               </div>
             </div>
-
-            <div className="experience-item">
-              <div className="experience-item-intro">
-                <h6>2023 — 2024</h6>
-              </div>
-              <div className="experience-item-details">
-                <h4>Glasswing Ventures</h4>
-                <h6>Venture Associate</h6>
-                <p>
-                  Sourced early-stage startups leveraging AI technologies within enterprise and security markets, aligning with Glasswing&apos;s thesis-driven approach. Sourced over 20 deals in the GenAI & Big Data space for the firm&apos;s most recent round. Enhanced portfolio diversity with trailblazers like Tracecat and Reken, reinforcing our leadership in AI-driven market shifts.
-                </p>
-                <div className="skills-container">
-                  <a className="skill-button">MODELLING</a>
-                  <a className="skill-button">SOURCING</a>
-                  <a className="skill-button">MARKET ANALYSIS</a>
-                  <a className="skill-button">STRATEGY</a>
-                </div>
-              </div>
-            </div>
-            
+                        
             <div className="experience-item">
               <div className="experience-item-intro">
                 <h6>2022 — 2023</h6>

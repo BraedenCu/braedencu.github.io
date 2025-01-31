@@ -54,7 +54,7 @@ export default function Content() {
               </div>
               <div className="experience-item-details">
                 <h4>Elevance Health</h4>
-                <h6>Data Scientist Intern</h6>
+                <h6>Software Engineer Intern</h6>
                 <p>
                   Developed Snowflake analytical tools using Python and SQL for 14+ million Medicaid beneficiaries nationwide. Leveraged Snowflake’s data sharing capabilities to enable secure, real-time data sharing across multiple organizations, enhancing collaboration and data-driven decision-making. Created a suite of analysis tools released as a desktop application that cut time on healthcare pricing validations by 250%. Designed and implemented robust ETL pipelines to streamline data ingestion, transformation, and storage processes of sensitive healthcare data while maintaining HIPAA compliance. Utilized SQL queries to display national Medicaid records. Presented deliverables to upper management and stakeholders, providing insights into the Medicaid population and healthcare pricing trends.
                 </p>
@@ -91,7 +91,7 @@ export default function Content() {
               </div>
               <div className="experience-item-details">
                 <h4>University of Chicago, Scientific & High Performance Computing Group </h4>
-                <h6>Software Engineering Intern</h6>
+                <h6>Software Engineer Intern</h6>
                 <p>Developed Accelerate (formerly Moment), a site for connecting artificial intelligence researchers in academia to passionate collaborators to improve academic turnover through crowd-sourced collaboration, funded by the National Science Foundation. Created Foundry-ML, a Python package and API used by over 20,000 monthly users, simplifying access to ML-ready datasets in materials science and chemistry. Developed API features for easy data loading in local or cloud environments and facilitated dataset publishing for community use. The package enhances the repeatability of cutting-edge machine learning models from academic papers and includes features for seamless deployment of published ML models.</p>
                 <div className="skills-container">
                   <a className="skill-button">UI/UX</a>

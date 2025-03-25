@@ -28,7 +28,7 @@ export default function Content() {
           <div className="experience-path">
           <p className='title'>Experience</p>
 
-          <div className="experience-item">
+          {/*<div className="experience-item">
               <div className="experience-item-intro">
                 <h6>2024 - 2024</h6>
               </div>
@@ -47,6 +47,7 @@ export default function Content() {
                 </div>
               </div>
             </div>
+            */}
 
             <div className="experience-item">
               <div className="experience-item-intro">
